@@ -2,8 +2,13 @@
     ViewBag.Title = "Index";
     ViewBag.BodyClass = "skin-blue sidebar-mini appliance-store";
     ViewBag.ActiveClass = "energy-calculator";
+    Layout = "~/Areas/Public/Views/Shared/_LayoutPublic_New.cshtml";
 }
-
+<style>
+    .collapse-header {
+        height: auto;
+    }
+</style>
 <div id="view-container"></div>
 
 <!-- start floating check appliance wattage -->
@@ -50,7 +55,7 @@
 
     </div>
 </div>
-<!-- end floating check appliance wattage -->  
+<!-- end floating check appliance wattage -->
 
 <script id="view-template" type="text/x-kendo-template">
     <section>
@@ -98,11 +103,11 @@
                                 {
                                     if (houseTyp.IsActive.Equals(true) && houseTyp.HouseCategoryId.Equals(houseCat.Id))
                                     {
-                                    <a href="javascript:;" 
-                                       id="@houseTyp.HouseTypeCode" 
-                                       data-bind="value: data.@houseTyp.HouseTypeCode, click: selectRoom" 
-                                       data-house-type="@houseTyp.HouseTypeCode" 
-                                       data-img-default="@houseTyp.FileId" 
+                                    <a href="javascript:;"
+                                       id="@houseTyp.HouseTypeCode"
+                                       data-bind="value: data.@houseTyp.HouseTypeCode, click: selectRoom"
+                                       data-house-type="@houseTyp.HouseTypeCode"
+                                       data-img-default="@houseTyp.FileId"
                                        data-img-big="@houseTyp.FileHeaderId">
                                         <div class="house one-floor">
                                             <div><img src="/FilePublic?fileId=@houseTyp.FileId" style="max-height:95px; padding-top:3px;"/></div>
@@ -333,8 +338,9 @@
                                             <small>
                                                 - Disclaimer : <br />
                                                 &nbsp;> The Energy Usage Calculator is used as a guide and does not reflect your current electric bill<br />
-                                                &nbsp;> The rate used to calculate each appliances is based on the average tariff for residential customer effective January 2014<br />
-                                                &nbsp;> The Total Monthly Usage amount is calculated based on the latest Tariff Block
+                                                &nbsp;> The calculation is based on the new complex billing structure effective July 2025<br />
+                                                &nbsp;> The Total Monthly Usage includes Energy, AFA, Capacity, Network, Retail charges, Energy Efficiency Incentive, Rebate, Service Tax and RE Fund<br />
+                                                &nbsp;> Rates are subject to change as approved by the Malaysian Government
                                             </small>
 
                                         </td>
@@ -466,7 +472,7 @@
                 <div class="remove-button" data-bind="click: removeRoom"></div>
             </div>
         </div>
-        <div class="box-body no-padding accordion-body collapse in" id="#= uid #">
+        <div class="box-body no-padding accordion-body collapse show" id="#= uid #">
             <div class="acc-text">
                 <div class="icon-img"><img src="/Images/room/#= RoomType #.png" /></div>
                 <div class="table-appliance">
@@ -482,11 +488,10 @@
                                 </th>
                                 <th>Number Of Days Used Per Month</th>
                                 <th>Watts</th>
-                                <th style="display:none;">Icon</th>
+                                <th style="visibility: hidden;">Icon</th>
                             </tr>
                         </thead>
-                        <tbody class="applianceList odd"
-                               data-role="listview"
+                        <tbody class="applianceList"
                                data-template="applianceListItemTemplate"
                                data-bind="source: Appliances"
                                style="border: 0; background: inherit"></tbody>
@@ -609,16 +614,18 @@
                 });
             }
 
-            // Get tariff block
-            var tariffTiers = 0, tariffRemaining = 0;
+            // Get tariff block and billing components (Updated July 2025)
+            var tariffTiers = 0, tariffRemaining = 0, billingComponents = null;
             $.ajax({
                 url: "@Url.Action("ReadTariff", "UsageCalculator")",
                 type: 'GET',
                 dataType: 'json',
                 async: false,
                 success: function (data, textStatus, jqXHR) {
-                    tariffTiers = data.tiers;
-                    tariffRemaining = data.remaining;
+                    // Handle new structure (July 2025 update)
+                    tariffTiers = data.energyTiers;
+                    tariffRemaining = data.energyRemaining;
+                    billingComponents = data.components;
                 }
             });
 
@@ -767,7 +774,6 @@
                     // Filter appliance according to room type
                     var ds = $("#applianceListView").data("kendoListView").dataSource;
                     ds.filter({ field: "For" + currentRoom.RoomType, operator: "eq", value: true });
-
                     // Call appliances function
                     listAppliances();
                 },
@@ -1166,15 +1172,15 @@
             var dataAppliance = [];
             var totalkWh = 0;
 
+
             // Formula:
-            // Estimated Cost = ((Usage per day * Number of days used a months * Watts) / 1000 )) * 0.3166
-            // 0.3166 = Average Cost Per kWh (DOMESTIC)
+            // New Complex Billing Structure as per July 2025 update with Tiered EEI
+            // Based on 'Domestic General Calculator 30 June 2025 1.xlsx' file
             function totalUsage() {
                 var total = 0;
 
                 // Get each room data
                 $.each(viewModel.get("Rooms"), function (i, room) {
-
                     // Get each appliance for each room data
                     $.each(room.get("Appliances"), function (j, appliance) {
                         var sum = 0;
@@ -1198,42 +1204,143 @@
                 });
 
                 totalkWh = kendo.toString(parseFloat(total) / 1000, "0");
+                var totalKwh = parseFloat(total) / 1000;
 
-                // Calculate total bill per month (RM) using Tariff Block
-                // Base on 'HEC2 - CalculationV3.xlsx' file
-                var balance = totalkWh;
-                var totalCharge = 0;
+                // ===== NEW COMPLEX BILLING CALCULATION (July 2025) =====
+
+                // 1. ENERGY COST (Using existing tariff blocks)
+                var energyBalance = totalKwh;
+                var energyCost = 0;
                 for (var i = 0; i < tariffTiers.length; i++) {
                     var boundary = tariffTiers[i].boundary;
                     var rate = tariffTiers[i].rate;
-                    //console.log({
-                    //    i: i,
-                    //    boundary: boundary,
-                    //    rate: rate,
-                    //    balance: balance,
-                    //    totalCharge: totalCharge
-                    //});
-                    if (balance > boundary) {
-                        totalCharge += boundary * rate;
-                        balance = balance - boundary;
+
+                    if (energyBalance > boundary) {
+                        energyCost += boundary * rate;
+                        energyBalance = energyBalance - boundary;
                     } else {
-                        totalCharge += balance * rate;
-                        balance = 0
+                        energyCost += energyBalance * rate;
+                        energyBalance = 0;
                         break;
                     }
                 }
-                //console.log({
-                //    balance: balance,
-                //    totalCharge: totalCharge
-                //});
-                if (balance > 0) totalCharge += balance * tariffRemaining;
-                //console.log(totalCharge);
+                if (energyBalance > 0) energyCost += energyBalance * tariffRemaining;
+
+                // 2. AFA (Automated Fuel Cost Adjustment) - 0.0000 RM/kWh as of July 2025
+                var afaCost = 0;
+                if (totalKwh > 600) {
+                    afaCost = totalKwh * 0.0000; // Currently 0 as per July 2025
+                }
+
+                // 3. CAPACITY CHARGE - 4.55 sen/kWh (corrected from PDF)
+                var capacityCost = 0;
+                if (totalKwh > 600) {
+                    capacityCost = totalKwh * 0.04550;
+                }
+
+                // 4. NETWORK CHARGE - 12.85 sen/kWh (corrected from PDF)
+                var networkCost = 0;
+                if (totalKwh > 600) {
+                    networkCost = totalKwh * 0.12850;
+                }
+
+                // 5. RETAIL CHARGE - RM 10.00/month (prorated for 30 days)
+                var retailCost = 0;
+                if (totalKwh > 600) {
+                    retailCost = (30 / 30) * 10.00; // Assuming 30-day billing period
+                }
+
+                // 6. ENERGY EFFICIENCY INCENTIVE - CORRECTED TIERED STRUCTURE (applicable 0-1000 kWh)
+                var eeiDiscount = 0;
+                if (totalKwh <= 1000) {
+                    // EEI Tiered rates (in RM/kWh) - these are DISCOUNT rates
+                    var eeiTiers = [
+                        { max: 200, rate: 0.25 },    // 0-200 kWh: -0.25 RM/kWh
+                        { max: 250, rate: 0.245 },   // 201-250 kWh: -0.245 RM/kWh
+                        { max: 300, rate: 0.225 },   // 251-300 kWh: -0.225 RM/kWh
+                        { max: 350, rate: 0.21 },    // 301-350 kWh: -0.21 RM/kWh
+                        { max: 400, rate: 0.17 },    // 351-400 kWh: -0.17 RM/kWh
+                        { max: 450, rate: 0.145 },   // 401-450 kWh: -0.145 RM/kWh
+                        { max: 500, rate: 0.12 },    // 451-500 kWh: -0.12 RM/kWh
+                        { max: 550, rate: 0.105 },   // 501-550 kWh: -0.105 RM/kWh
+                        { max: 600, rate: 0.09 },    // 551-600 kWh: -0.09 RM/kWh
+                        { max: 650, rate: 0.075 },   // 601-650 kWh: -0.075 RM/kWh
+                        { max: 700, rate: 0.055 },   // 651-700 kWh: -0.055 RM/kWh
+                        { max: 750, rate: 0.045 },   // 701-750 kWh: -0.045 RM/kWh
+                        { max: 800, rate: 0.04 },    // 751-800 kWh: -0.04 RM/kWh
+                        { max: 850, rate: 0.025 },   // 801-850 kWh: -0.025 RM/kWh
+                        { max: 900, rate: 0.01 },    // 851-900 kWh: -0.01 RM/kWh
+                        { max: 1000, rate: 0.005 }   // 901-1000 kWh: -0.005 RM/kWh
+                    ];
+
+                    var remainingKwh = totalKwh;
+                    var previousMax = 0;
+
+                    for (var i = 0; i < eeiTiers.length && remainingKwh > 0; i++) {
+                        var tierSize = eeiTiers[i].max - previousMax;
+                        var tierConsumption = Math.min(remainingKwh, tierSize);
+                        eeiDiscount += tierConsumption * eeiTiers[i].rate;
+                        remainingKwh -= tierConsumption;
+                        previousMax = eeiTiers[i].max;
+
+                        if (totalKwh <= eeiTiers[i].max) break;
+                    }
+                }
+
+                // 7. SUBTOTAL before taxes and rebates
+                var subtotal = energyCost + afaCost + capacityCost + networkCost + retailCost - eeiDiscount;
+
+                // 8. REBATE (10%) - Applied to subtotal
+                var rebateDiscount = subtotal * 0.10;
+
+                // 9. AFTER REBATE
+                var afterRebate = subtotal - rebateDiscount;
+
+                // 10. SERVICE TAX (8%) - Only if consumption > 600kWh
+                var serviceTax = 0;
+                if (totalKwh > 600) {
+                    serviceTax = afterRebate * 0.08;
+                }
+
+                // 11. RE FUND (KWTBB 1.6%) - Only if consumption > 300kWh (applied to specific components)
+                var reFund = 0;
+                if (totalKwh > 300) {
+                    // Applied to: Energy + Capacity + Network + EEI (without AFA and Retail Charge)
+                    var reFundBase = energyCost + capacityCost + networkCost - eeiDiscount;
+                    reFund = reFundBase * 0.016;
+                }
+
+                // 12. FINAL TOTAL
+                var totalCharge = afterRebate + serviceTax + reFund;
+
+                // Note: No minimum bill amount as per client specification
+                // Negative bills mean customer pays nothing or gets credit
+
+                // ===== LOGGING FOR DEBUGGING (can be enabled for testing) =====
+                /*
+                console.log("=== BILLING BREAKDOWN ===");
+                console.log("Total kWh:", totalKwh);
+                console.log("1. Energy Cost:", energyCost.toFixed(4));
+                console.log("2. AFA Cost:", afaCost.toFixed(4));
+                console.log("3. Capacity Cost:", capacityCost.toFixed(4));
+                console.log("4. Network Cost:", networkCost.toFixed(4));
+                console.log("5. Retail Cost:", retailCost.toFixed(4));
+                console.log("6. EEI Discount (Tiered):", eeiDiscount.toFixed(4));
+                console.log("7. Subtotal:", subtotal.toFixed(4));
+                console.log("8. Rebate Discount:", rebateDiscount.toFixed(4));
+                console.log("9. After Rebate:", afterRebate.toFixed(4));
+                console.log("10. Service Tax:", serviceTax.toFixed(4));
+                console.log("11. RE Fund:", reFund.toFixed(4));
+                console.log("12. FINAL TOTAL:", totalCharge.toFixed(2));
+                */
 
                 // Set view model value
-                viewModel.set("TotalkWh", kendo.toString(parseFloat(total) / 1000, "0"));
-                viewModel.set("TotalkWhDay", kendo.toString((parseFloat(total) / 1000) / 30, "n"));
-                viewModel.set("TotalUsage", kendo.toString(totalCharge, "n"));
-                viewModel.set("TotalUsageDay", kendo.toString(parseFloat(totalCharge) / 30, "n"));
+                viewModel.set("TotalkWh", kendo.toString(totalKwh, "0"));
+                viewModel.set("TotalkWhDay", kendo.toString(totalKwh / 30, "n"));
+                // Handle negative bills - show 0.00 if negative or actual amount if positive
+                var displayTotal = Math.max(totalCharge, 0);
+                viewModel.set("TotalUsage", kendo.toString(displayTotal, "n"));
+                viewModel.set("TotalUsageDay", kendo.toString(parseFloat(displayTotal) / 30, "n"));
 
                 // Return data to function
                 return { "total": total, "totalkWh": totalkWh };

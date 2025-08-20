@@ -1,0 +1,707 @@
+2025-08-19 14:15:17.0565 | INFO | Trd:1 | Hangfire.SqlServer.SqlServerStorage | Start installing Hangfire SQL objects... | 
+2025-08-19 14:15:17.2446 | INFO | Trd:1 | Hangfire.SqlServer.SqlServerStorage | Hangfire SQL objects installed. | 
+2025-08-19 14:15:17.2648 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Starting Hangfire Server | 
+2025-08-19 14:15:17.2683 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using job storage: 'SQL Server: localhost\SQLEXPRESS@HecDatabase' | 
+2025-08-19 14:15:17.2683 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using the following options for SQL Server job storage: | 
+2025-08-19 14:15:17.2683 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Queue poll interval: 00:00:15. | 
+2025-08-19 14:15:17.2683 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using the following options for Hangfire Server: | 
+2025-08-19 14:15:17.2683 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Worker count: 20 | 
+2025-08-19 14:15:17.2683 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Listening queues: 'default' | 
+2025-08-19 14:15:17.2683 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Shutdown timeout: 00:00:15 | 
+2025-08-19 14:15:17.2683 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Schedule polling interval: 00:00:15 | 
+2025-08-19 14:15:17.3315 | DEBUG | Trd:8 | Hangfire.Server.BackgroundProcessingServer | Background process 'BackgroundProcessingServer' started. | 
+2025-08-19 14:15:17.5873 | DEBUG | Trd:13 | Hangfire.Server.ServerHeartbeat | Background process 'ServerHeartbeat' started. | 
+2025-08-19 14:15:17.5949 | DEBUG | Trd:14 | Hangfire.Server.ServerWatchdog | Background process 'ServerWatchdog' started. | 
+2025-08-19 14:15:17.5949 | DEBUG | Trd:15 | Hangfire.SqlServer.ExpirationManager | Background process 'Hangfire.SqlServer.ExpirationManager' started. | 
+2025-08-19 14:15:17.5949 | DEBUG | Trd:16 | Hangfire.SqlServer.CountersAggregator | Background process 'Hangfire.SqlServer.CountersAggregator' started. | 
+2025-08-19 14:15:17.5949 | DEBUG | Trd:15 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'AggregatedCounter' table... | 
+2025-08-19 14:15:17.5949 | INFO | Trd:14 | Hangfire.Server.ServerWatchdog | 1 servers were removed due to timeout | 
+2025-08-19 14:15:17.6345 | DEBUG | Trd:16 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-19 14:15:17.6420 | DEBUG | Trd:17 | Hangfire.Server.Worker | Background process 'Worker #5f96bd8a' started. | 
+2025-08-19 14:15:17.6420 | DEBUG | Trd:18 | Hangfire.Server.Worker | Background process 'Worker #8a5df638' started. | 
+2025-08-19 14:15:17.6618 | DEBUG | Trd:19 | Hangfire.Server.Worker | Background process 'Worker #73eadc94' started. | 
+2025-08-19 14:15:17.6618 | DEBUG | Trd:20 | Hangfire.Server.Worker | Background process 'Worker #d297749a' started. | 
+2025-08-19 14:15:17.6752 | DEBUG | Trd:21 | Hangfire.Server.Worker | Background process 'Worker #4c7cbcbd' started. | 
+2025-08-19 14:15:17.6875 | TRACE | Trd:15 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'AggregatedCounter' table. | 
+2025-08-19 14:15:17.6875 | DEBUG | Trd:15 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Job' table... | 
+2025-08-19 14:15:17.6875 | DEBUG | Trd:22 | Hangfire.Server.Worker | Background process 'Worker #24f08859' started. | 
+2025-08-19 14:15:17.6875 | DEBUG | Trd:23 | Hangfire.Server.Worker | Background process 'Worker #5c3effcc' started. | 
+2025-08-19 14:15:17.7040 | TRACE | Trd:16 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-19 14:15:17.7040 | DEBUG | Trd:24 | Hangfire.Server.Worker | Background process 'Worker #c645a94d' started. | 
+2025-08-19 14:15:17.7238 | TRACE | Trd:15 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Job' table. | 
+2025-08-19 14:15:17.7238 | DEBUG | Trd:15 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'List' table... | 
+2025-08-19 14:15:17.7238 | DEBUG | Trd:25 | Hangfire.Server.Worker | Background process 'Worker #34b5d1c0' started. | 
+2025-08-19 14:15:17.7497 | DEBUG | Trd:26 | Hangfire.Server.Worker | Background process 'Worker #9bf6cf3b' started. | 
+2025-08-19 14:15:17.7497 | TRACE | Trd:15 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'List' table. | 
+2025-08-19 14:15:17.7497 | DEBUG | Trd:15 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Set' table... | 
+2025-08-19 14:15:17.7671 | TRACE | Trd:15 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Set' table. | 
+2025-08-19 14:15:17.7671 | DEBUG | Trd:15 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Hash' table... | 
+2025-08-19 14:15:17.7671 | TRACE | Trd:15 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Hash' table. | 
+2025-08-19 14:15:17.8071 | DEBUG | Trd:27 | Hangfire.Server.Worker | Background process 'Worker #e999c551' started. | 
+2025-08-19 14:15:17.8071 | DEBUG | Trd:28 | Hangfire.Server.Worker | Background process 'Worker #d6a32232' started. | 
+2025-08-19 14:15:17.8220 | DEBUG | Trd:29 | Hangfire.Server.Worker | Background process 'Worker #7a447503' started. | 
+2025-08-19 14:15:17.8362 | DEBUG | Trd:30 | Hangfire.Server.Worker | Background process 'Worker #2eef5dba' started. | 
+2025-08-19 14:15:17.8467 | DEBUG | Trd:32 | Hangfire.Server.Worker | Background process 'Worker #fafdcaff' started. | 
+2025-08-19 14:15:17.8467 | DEBUG | Trd:31 | Hangfire.Server.Worker | Background process 'Worker #6adda194' started. | 
+2025-08-19 14:15:17.8652 | DEBUG | Trd:34 | Hangfire.Server.Worker | Background process 'Worker #3829b8c5' started. | 
+2025-08-19 14:15:17.8818 | DEBUG | Trd:35 | Hangfire.Server.Worker | Background process 'Worker #b0a5c3a6' started. | 
+2025-08-19 14:15:17.8818 | DEBUG | Trd:33 | Hangfire.Server.Worker | Background process 'Worker #156ae197' started. | 
+2025-08-19 14:15:17.8986 | DEBUG | Trd:36 | Hangfire.Server.Worker | Background process 'Worker #702a75d6' started. | 
+2025-08-19 14:15:17.9128 | DEBUG | Trd:37 | Hangfire.Server.DelayedJobScheduler | Background process 'DelayedJobScheduler' started. | 
+2025-08-19 14:15:17.9128 | DEBUG | Trd:38 | Hangfire.Server.RecurringJobScheduler | Background process 'RecurringJobScheduler' started. | 
+2025-08-19 14:15:27.4601 | DEBUG | Trd:14 | Hangfire.Server.ServerWatchdog | Background process 'ServerWatchdog' stopped. | 
+2025-08-19 14:15:27.4601 | DEBUG | Trd:13 | Hangfire.Server.ServerHeartbeat | Background process 'ServerHeartbeat' stopped. | 
+2025-08-19 14:15:27.4601 | DEBUG | Trd:15 | Hangfire.SqlServer.ExpirationManager | Background process 'Hangfire.SqlServer.ExpirationManager' stopped. | 
+2025-08-19 14:15:27.4701 | DEBUG | Trd:16 | Hangfire.SqlServer.CountersAggregator | Background process 'Hangfire.SqlServer.CountersAggregator' stopped. | 
+2025-08-19 14:15:27.5313 | DEBUG | Trd:37 | Hangfire.Server.DelayedJobScheduler | Background process 'DelayedJobScheduler' stopped. | 
+2025-08-19 14:15:27.7243 | TRACE | Trd:17 | Hangfire.Server.Worker | Background process 'Worker #5f96bd8a' was stopped due to a shutdown request. | 
+2025-08-19 14:15:27.7243 | TRACE | Trd:21 | Hangfire.Server.Worker | Background process 'Worker #4c7cbcbd' was stopped due to a shutdown request. | 
+2025-08-19 14:15:27.7243 | TRACE | Trd:18 | Hangfire.Server.Worker | Background process 'Worker #8a5df638' was stopped due to a shutdown request. | 
+2025-08-19 14:15:27.7243 | DEBUG | Trd:17 | Hangfire.Server.Worker | Background process 'Worker #5f96bd8a' stopped. | 
+2025-08-19 14:15:27.7243 | DEBUG | Trd:18 | Hangfire.Server.Worker | Background process 'Worker #8a5df638' stopped. | 
+2025-08-19 14:15:27.7243 | DEBUG | Trd:21 | Hangfire.Server.Worker | Background process 'Worker #4c7cbcbd' stopped. | 
+2025-08-19 14:15:27.9854 | TRACE | Trd:24 | Hangfire.Server.Worker | Background process 'Worker #c645a94d' was stopped due to a shutdown request. | 
+2025-08-19 14:15:27.9854 | DEBUG | Trd:24 | Hangfire.Server.Worker | Background process 'Worker #c645a94d' stopped. | 
+2025-08-19 14:15:28.0160 | TRACE | Trd:23 | Hangfire.Server.Worker | Background process 'Worker #5c3effcc' was stopped due to a shutdown request. | 
+2025-08-19 14:15:28.0160 | DEBUG | Trd:23 | Hangfire.Server.Worker | Background process 'Worker #5c3effcc' stopped. | 
+2025-08-19 14:15:28.0908 | TRACE | Trd:20 | Hangfire.Server.Worker | Background process 'Worker #d297749a' was stopped due to a shutdown request. | 
+2025-08-19 14:15:28.0908 | TRACE | Trd:33 | Hangfire.Server.Worker | Background process 'Worker #156ae197' was stopped due to a shutdown request. | 
+2025-08-19 14:15:28.0934 | DEBUG | Trd:33 | Hangfire.Server.Worker | Background process 'Worker #156ae197' stopped. | 
+2025-08-19 14:15:28.0908 | TRACE | Trd:31 | Hangfire.Server.Worker | Background process 'Worker #6adda194' was stopped due to a shutdown request. | 
+2025-08-19 14:15:28.0934 | DEBUG | Trd:31 | Hangfire.Server.Worker | Background process 'Worker #6adda194' stopped. | 
+2025-08-19 14:15:28.0908 | TRACE | Trd:34 | Hangfire.Server.Worker | Background process 'Worker #3829b8c5' was stopped due to a shutdown request. | 
+2025-08-19 14:15:28.0934 | DEBUG | Trd:34 | Hangfire.Server.Worker | Background process 'Worker #3829b8c5' stopped. | 
+2025-08-19 14:15:28.0934 | TRACE | Trd:38 | Hangfire.Server.RecurringJobScheduler | Background process 'RecurringJobScheduler' was stopped due to a shutdown request. | 
+2025-08-19 14:15:28.0934 | DEBUG | Trd:38 | Hangfire.Server.RecurringJobScheduler | Background process 'RecurringJobScheduler' stopped. | 
+2025-08-19 14:15:28.0908 | TRACE | Trd:30 | Hangfire.Server.Worker | Background process 'Worker #2eef5dba' was stopped due to a shutdown request. | 
+2025-08-19 14:15:28.0934 | DEBUG | Trd:30 | Hangfire.Server.Worker | Background process 'Worker #2eef5dba' stopped. | 
+2025-08-19 14:15:28.0908 | TRACE | Trd:19 | Hangfire.Server.Worker | Background process 'Worker #73eadc94' was stopped due to a shutdown request. | 
+2025-08-19 14:15:28.0934 | DEBUG | Trd:19 | Hangfire.Server.Worker | Background process 'Worker #73eadc94' stopped. | 
+2025-08-19 14:15:28.0908 | DEBUG | Trd:20 | Hangfire.Server.Worker | Background process 'Worker #d297749a' stopped. | 
+2025-08-19 14:15:28.0908 | TRACE | Trd:28 | Hangfire.Server.Worker | Background process 'Worker #d6a32232' was stopped due to a shutdown request. | 
+2025-08-19 14:15:28.1604 | DEBUG | Trd:28 | Hangfire.Server.Worker | Background process 'Worker #d6a32232' stopped. | 
+2025-08-19 14:15:28.1604 | TRACE | Trd:27 | Hangfire.Server.Worker | Background process 'Worker #e999c551' was stopped due to a shutdown request. | 
+2025-08-19 14:15:28.1604 | DEBUG | Trd:27 | Hangfire.Server.Worker | Background process 'Worker #e999c551' stopped. | 
+2025-08-19 14:15:28.1604 | TRACE | Trd:22 | Hangfire.Server.Worker | Background process 'Worker #24f08859' was stopped due to a shutdown request. | 
+2025-08-19 14:15:28.1604 | DEBUG | Trd:22 | Hangfire.Server.Worker | Background process 'Worker #24f08859' stopped. | 
+2025-08-19 14:15:28.1604 | TRACE | Trd:25 | Hangfire.Server.Worker | Background process 'Worker #34b5d1c0' was stopped due to a shutdown request. | 
+2025-08-19 14:15:28.1604 | DEBUG | Trd:25 | Hangfire.Server.Worker | Background process 'Worker #34b5d1c0' stopped. | 
+2025-08-19 14:15:28.1604 | TRACE | Trd:29 | Hangfire.Server.Worker | Background process 'Worker #7a447503' was stopped due to a shutdown request. | 
+2025-08-19 14:15:28.1604 | DEBUG | Trd:29 | Hangfire.Server.Worker | Background process 'Worker #7a447503' stopped. | 
+2025-08-19 14:15:28.0934 | TRACE | Trd:36 | Hangfire.Server.Worker | Background process 'Worker #702a75d6' was stopped due to a shutdown request. | 
+2025-08-19 14:15:28.1800 | DEBUG | Trd:36 | Hangfire.Server.Worker | Background process 'Worker #702a75d6' stopped. | 
+2025-08-19 14:15:28.1800 | TRACE | Trd:32 | Hangfire.Server.Worker | Background process 'Worker #fafdcaff' was stopped due to a shutdown request. | 
+2025-08-19 14:15:28.1800 | DEBUG | Trd:32 | Hangfire.Server.Worker | Background process 'Worker #fafdcaff' stopped. | 
+2025-08-19 14:15:28.2117 | TRACE | Trd:26 | Hangfire.Server.Worker | Background process 'Worker #9bf6cf3b' was stopped due to a shutdown request. | 
+2025-08-19 14:15:28.2117 | DEBUG | Trd:26 | Hangfire.Server.Worker | Background process 'Worker #9bf6cf3b' stopped. | 
+2025-08-19 14:15:28.0934 | TRACE | Trd:35 | Hangfire.Server.Worker | Background process 'Worker #b0a5c3a6' was stopped due to a shutdown request. | 
+2025-08-19 14:15:28.2117 | DEBUG | Trd:35 | Hangfire.Server.Worker | Background process 'Worker #b0a5c3a6' stopped. | 
+2025-08-19 14:15:28.2540 | DEBUG | Trd:8 | Hangfire.Server.BackgroundProcessingServer | Background process 'BackgroundProcessingServer' stopped. | 
+2025-08-19 14:15:28.2540 | INFO | Trd:11 | Hangfire.BackgroundJobServer | Hangfire Server stopped. | 
+2025-08-19 14:15:56.5057 | INFO | Trd:1 | Hangfire.SqlServer.SqlServerStorage | Start installing Hangfire SQL objects... | 
+2025-08-19 14:15:56.6599 | INFO | Trd:1 | Hangfire.SqlServer.SqlServerStorage | Hangfire SQL objects installed. | 
+2025-08-19 14:15:56.6750 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Starting Hangfire Server | 
+2025-08-19 14:15:56.6750 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using job storage: 'SQL Server: localhost\SQLEXPRESS@HecDatabase' | 
+2025-08-19 14:15:56.6750 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using the following options for SQL Server job storage: | 
+2025-08-19 14:15:56.6750 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Queue poll interval: 00:00:15. | 
+2025-08-19 14:15:56.6750 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using the following options for Hangfire Server: | 
+2025-08-19 14:15:56.6750 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Worker count: 20 | 
+2025-08-19 14:15:56.6750 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Listening queues: 'default' | 
+2025-08-19 14:15:56.6750 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Shutdown timeout: 00:00:15 | 
+2025-08-19 14:15:56.6750 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Schedule polling interval: 00:00:15 | 
+2025-08-19 14:15:56.7011 | DEBUG | Trd:8 | Hangfire.Server.BackgroundProcessingServer | Background process 'BackgroundProcessingServer' started. | 
+2025-08-19 14:15:56.9275 | DEBUG | Trd:9 | Hangfire.Server.ServerHeartbeat | Background process 'ServerHeartbeat' started. | 
+2025-08-19 14:15:56.9275 | DEBUG | Trd:10 | Hangfire.Server.ServerWatchdog | Background process 'ServerWatchdog' started. | 
+2025-08-19 14:15:56.9415 | DEBUG | Trd:11 | Hangfire.SqlServer.ExpirationManager | Background process 'Hangfire.SqlServer.ExpirationManager' started. | 
+2025-08-19 14:15:56.9548 | DEBUG | Trd:12 | Hangfire.SqlServer.CountersAggregator | Background process 'Hangfire.SqlServer.CountersAggregator' started. | 
+2025-08-19 14:15:56.9950 | DEBUG | Trd:13 | Hangfire.Server.Worker | Background process 'Worker #d201e314' started. | 
+2025-08-19 14:15:56.9950 | DEBUG | Trd:11 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'AggregatedCounter' table... | 
+2025-08-19 14:15:57.0025 | DEBUG | Trd:14 | Hangfire.Server.Worker | Background process 'Worker #19470643' started. | 
+2025-08-19 14:15:57.0025 | DEBUG | Trd:12 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-19 14:15:57.0265 | DEBUG | Trd:15 | Hangfire.Server.Worker | Background process 'Worker #ade257e0' started. | 
+2025-08-19 14:15:57.0332 | DEBUG | Trd:16 | Hangfire.Server.Worker | Background process 'Worker #73eb8708' started. | 
+2025-08-19 14:15:57.0332 | DEBUG | Trd:17 | Hangfire.Server.Worker | Background process 'Worker #b94ca8c3' started. | 
+2025-08-19 14:15:57.0735 | DEBUG | Trd:18 | Hangfire.Server.Worker | Background process 'Worker #95a5d36d' started. | 
+2025-08-19 14:15:57.0806 | TRACE | Trd:11 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'AggregatedCounter' table. | 
+2025-08-19 14:15:57.0806 | DEBUG | Trd:11 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Job' table... | 
+2025-08-19 14:15:57.0806 | TRACE | Trd:12 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-19 14:15:57.0936 | DEBUG | Trd:19 | Hangfire.Server.Worker | Background process 'Worker #9eeb0d9a' started. | 
+2025-08-19 14:15:57.0936 | TRACE | Trd:11 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Job' table. | 
+2025-08-19 14:15:57.0936 | DEBUG | Trd:11 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'List' table... | 
+2025-08-19 14:15:57.0936 | TRACE | Trd:11 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'List' table. | 
+2025-08-19 14:15:57.0936 | DEBUG | Trd:11 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Set' table... | 
+2025-08-19 14:15:57.1111 | TRACE | Trd:11 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Set' table. | 
+2025-08-19 14:15:57.1111 | DEBUG | Trd:11 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Hash' table... | 
+2025-08-19 14:15:57.1498 | TRACE | Trd:11 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Hash' table. | 
+2025-08-19 14:15:57.1498 | DEBUG | Trd:20 | Hangfire.Server.Worker | Background process 'Worker #c4394026' started. | 
+2025-08-19 14:15:57.1814 | DEBUG | Trd:21 | Hangfire.Server.Worker | Background process 'Worker #06fde0f7' started. | 
+2025-08-19 14:15:57.1906 | DEBUG | Trd:22 | Hangfire.Server.Worker | Background process 'Worker #9872a620' started. | 
+2025-08-19 14:15:57.2586 | DEBUG | Trd:23 | Hangfire.Server.Worker | Background process 'Worker #f4bf50c9' started. | 
+2025-08-19 14:15:57.2663 | DEBUG | Trd:24 | Hangfire.Server.Worker | Background process 'Worker #53456d6b' started. | 
+2025-08-19 14:15:57.2663 | DEBUG | Trd:25 | Hangfire.Server.Worker | Background process 'Worker #8391286d' started. | 
+2025-08-19 14:15:57.2888 | DEBUG | Trd:26 | Hangfire.Server.Worker | Background process 'Worker #5046cc24' started. | 
+2025-08-19 14:15:57.2994 | DEBUG | Trd:27 | Hangfire.Server.Worker | Background process 'Worker #0ab36f03' started. | 
+2025-08-19 14:15:57.3566 | DEBUG | Trd:28 | Hangfire.Server.Worker | Background process 'Worker #09406a2f' started. | 
+2025-08-19 14:15:57.3966 | DEBUG | Trd:29 | Hangfire.Server.Worker | Background process 'Worker #75db17ac' started. | 
+2025-08-19 14:15:57.4091 | DEBUG | Trd:31 | Hangfire.Server.Worker | Background process 'Worker #52f6ef01' started. | 
+2025-08-19 14:15:57.4091 | DEBUG | Trd:32 | Hangfire.Server.Worker | Background process 'Worker #5bad0841' started. | 
+2025-08-19 14:15:57.4221 | DEBUG | Trd:30 | Hangfire.Server.Worker | Background process 'Worker #aa23224e' started. | 
+2025-08-19 14:15:57.4221 | DEBUG | Trd:34 | Hangfire.Server.RecurringJobScheduler | Background process 'RecurringJobScheduler' started. | 
+2025-08-19 14:15:57.4391 | DEBUG | Trd:33 | Hangfire.Server.DelayedJobScheduler | Background process 'DelayedJobScheduler' started. | 
+2025-08-19 14:16:00.9826 | DEBUG | Trd:13 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-19 14:16:02.9017 | DEBUG | Trd:13 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-19 14:16:02.9090 | DEBUG | Trd:13 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-19 14:16:07.7971 | DEBUG | Trd:12 | Hangfire.SqlServer.CountersAggregator | Background process 'Hangfire.SqlServer.CountersAggregator' stopped. | 
+2025-08-19 14:16:07.7971 | DEBUG | Trd:11 | Hangfire.SqlServer.ExpirationManager | Background process 'Hangfire.SqlServer.ExpirationManager' stopped. | 
+2025-08-19 14:16:07.7971 | DEBUG | Trd:10 | Hangfire.Server.ServerWatchdog | Background process 'ServerWatchdog' stopped. | 
+2025-08-19 14:16:07.7971 | DEBUG | Trd:9 | Hangfire.Server.ServerHeartbeat | Background process 'ServerHeartbeat' stopped. | 
+2025-08-19 14:16:07.8437 | DEBUG | Trd:33 | Hangfire.Server.DelayedJobScheduler | Background process 'DelayedJobScheduler' stopped. | 
+2025-08-19 14:16:08.1802 | TRACE | Trd:13 | Hangfire.Server.Worker | Background process 'Worker #d201e314' was stopped due to a shutdown request. | 
+2025-08-19 14:16:08.1802 | DEBUG | Trd:13 | Hangfire.Server.Worker | Background process 'Worker #d201e314' stopped. | 
+2025-08-19 14:16:08.1802 | TRACE | Trd:17 | Hangfire.Server.Worker | Background process 'Worker #b94ca8c3' was stopped due to a shutdown request. | 
+2025-08-19 14:16:08.1802 | TRACE | Trd:16 | Hangfire.Server.Worker | Background process 'Worker #73eb8708' was stopped due to a shutdown request. | 
+2025-08-19 14:16:08.1802 | DEBUG | Trd:16 | Hangfire.Server.Worker | Background process 'Worker #73eb8708' stopped. | 
+2025-08-19 14:16:08.1802 | TRACE | Trd:19 | Hangfire.Server.Worker | Background process 'Worker #9eeb0d9a' was stopped due to a shutdown request. | 
+2025-08-19 14:16:08.1802 | TRACE | Trd:20 | Hangfire.Server.Worker | Background process 'Worker #c4394026' was stopped due to a shutdown request. | 
+2025-08-19 14:16:08.1802 | TRACE | Trd:21 | Hangfire.Server.Worker | Background process 'Worker #06fde0f7' was stopped due to a shutdown request. | 
+2025-08-19 14:16:08.1802 | TRACE | Trd:25 | Hangfire.Server.Worker | Background process 'Worker #8391286d' was stopped due to a shutdown request. | 
+2025-08-19 14:16:08.1802 | TRACE | Trd:15 | Hangfire.Server.Worker | Background process 'Worker #ade257e0' was stopped due to a shutdown request. | 
+2025-08-19 14:16:08.1802 | TRACE | Trd:18 | Hangfire.Server.Worker | Background process 'Worker #95a5d36d' was stopped due to a shutdown request. | 
+2025-08-19 14:16:08.1802 | TRACE | Trd:31 | Hangfire.Server.Worker | Background process 'Worker #52f6ef01' was stopped due to a shutdown request. | 
+2025-08-19 14:16:08.2080 | DEBUG | Trd:15 | Hangfire.Server.Worker | Background process 'Worker #ade257e0' stopped. | 
+2025-08-19 14:16:08.2080 | DEBUG | Trd:18 | Hangfire.Server.Worker | Background process 'Worker #95a5d36d' stopped. | 
+2025-08-19 14:16:08.2080 | DEBUG | Trd:25 | Hangfire.Server.Worker | Background process 'Worker #8391286d' stopped. | 
+2025-08-19 14:16:08.2080 | TRACE | Trd:23 | Hangfire.Server.Worker | Background process 'Worker #f4bf50c9' was stopped due to a shutdown request. | 
+2025-08-19 14:16:08.2080 | DEBUG | Trd:23 | Hangfire.Server.Worker | Background process 'Worker #f4bf50c9' stopped. | 
+2025-08-19 14:16:08.2080 | DEBUG | Trd:21 | Hangfire.Server.Worker | Background process 'Worker #06fde0f7' stopped. | 
+2025-08-19 14:16:08.2080 | TRACE | Trd:24 | Hangfire.Server.Worker | Background process 'Worker #53456d6b' was stopped due to a shutdown request. | 
+2025-08-19 14:16:08.2194 | DEBUG | Trd:24 | Hangfire.Server.Worker | Background process 'Worker #53456d6b' stopped. | 
+2025-08-19 14:16:08.2080 | DEBUG | Trd:19 | Hangfire.Server.Worker | Background process 'Worker #9eeb0d9a' stopped. | 
+2025-08-19 14:16:08.2080 | DEBUG | Trd:20 | Hangfire.Server.Worker | Background process 'Worker #c4394026' stopped. | 
+2025-08-19 14:16:08.2080 | TRACE | Trd:26 | Hangfire.Server.Worker | Background process 'Worker #5046cc24' was stopped due to a shutdown request. | 
+2025-08-19 14:16:08.2384 | DEBUG | Trd:26 | Hangfire.Server.Worker | Background process 'Worker #5046cc24' stopped. | 
+2025-08-19 14:16:08.2080 | DEBUG | Trd:31 | Hangfire.Server.Worker | Background process 'Worker #52f6ef01' stopped. | 
+2025-08-19 14:16:08.1802 | DEBUG | Trd:17 | Hangfire.Server.Worker | Background process 'Worker #b94ca8c3' stopped. | 
+2025-08-19 14:16:08.3087 | TRACE | Trd:14 | Hangfire.Server.Worker | Background process 'Worker #19470643' was stopped due to a shutdown request. | 
+2025-08-19 14:16:08.3087 | DEBUG | Trd:14 | Hangfire.Server.Worker | Background process 'Worker #19470643' stopped. | 
+2025-08-19 14:16:08.3087 | TRACE | Trd:32 | Hangfire.Server.Worker | Background process 'Worker #5bad0841' was stopped due to a shutdown request. | 
+2025-08-19 14:16:08.3127 | DEBUG | Trd:32 | Hangfire.Server.Worker | Background process 'Worker #5bad0841' stopped. | 
+2025-08-19 14:16:08.3087 | TRACE | Trd:22 | Hangfire.Server.Worker | Background process 'Worker #9872a620' was stopped due to a shutdown request. | 
+2025-08-19 14:16:08.3127 | DEBUG | Trd:22 | Hangfire.Server.Worker | Background process 'Worker #9872a620' stopped. | 
+2025-08-19 14:16:08.3087 | TRACE | Trd:27 | Hangfire.Server.Worker | Background process 'Worker #0ab36f03' was stopped due to a shutdown request. | 
+2025-08-19 14:16:08.3127 | DEBUG | Trd:27 | Hangfire.Server.Worker | Background process 'Worker #0ab36f03' stopped. | 
+2025-08-19 14:16:08.3504 | TRACE | Trd:30 | Hangfire.Server.Worker | Background process 'Worker #aa23224e' was stopped due to a shutdown request. | 
+2025-08-19 14:16:08.3504 | DEBUG | Trd:30 | Hangfire.Server.Worker | Background process 'Worker #aa23224e' stopped. | 
+2025-08-19 14:16:08.3914 | TRACE | Trd:28 | Hangfire.Server.Worker | Background process 'Worker #09406a2f' was stopped due to a shutdown request. | 
+2025-08-19 14:16:08.3914 | DEBUG | Trd:28 | Hangfire.Server.Worker | Background process 'Worker #09406a2f' stopped. | 
+2025-08-19 14:16:08.3914 | TRACE | Trd:29 | Hangfire.Server.Worker | Background process 'Worker #75db17ac' was stopped due to a shutdown request. | 
+2025-08-19 14:16:08.3914 | DEBUG | Trd:29 | Hangfire.Server.Worker | Background process 'Worker #75db17ac' stopped. | 
+2025-08-19 14:16:08.3914 | TRACE | Trd:34 | Hangfire.Server.RecurringJobScheduler | Background process 'RecurringJobScheduler' was stopped due to a shutdown request. | 
+2025-08-19 14:16:08.3914 | DEBUG | Trd:34 | Hangfire.Server.RecurringJobScheduler | Background process 'RecurringJobScheduler' stopped. | 
+2025-08-19 14:16:08.4396 | DEBUG | Trd:8 | Hangfire.Server.BackgroundProcessingServer | Background process 'BackgroundProcessingServer' stopped. | 
+2025-08-19 14:16:08.4396 | INFO | Trd:40 | Hangfire.BackgroundJobServer | Hangfire Server stopped. | 
+2025-08-19 14:16:08.4614 | INFO | Trd:40 | Hangfire.BackgroundJobServer | Hangfire Server stopped. | 
+2025-08-19 14:26:16.6130 | INFO | Trd:1 | Hangfire.SqlServer.SqlServerStorage | Start installing Hangfire SQL objects... | 
+2025-08-19 14:26:16.7609 | INFO | Trd:1 | Hangfire.SqlServer.SqlServerStorage | Hangfire SQL objects installed. | 
+2025-08-19 14:26:16.7711 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Starting Hangfire Server | 
+2025-08-19 14:26:16.7711 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using job storage: 'SQL Server: localhost\SQLEXPRESS@HecDatabase' | 
+2025-08-19 14:26:16.7711 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using the following options for SQL Server job storage: | 
+2025-08-19 14:26:16.7711 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Queue poll interval: 00:00:15. | 
+2025-08-19 14:26:16.7711 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using the following options for Hangfire Server: | 
+2025-08-19 14:26:16.7711 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Worker count: 20 | 
+2025-08-19 14:26:16.7711 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Listening queues: 'default' | 
+2025-08-19 14:26:16.7711 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Shutdown timeout: 00:00:15 | 
+2025-08-19 14:26:16.7711 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Schedule polling interval: 00:00:15 | 
+2025-08-19 14:26:16.7921 | DEBUG | Trd:9 | Hangfire.Server.BackgroundProcessingServer | Background process 'BackgroundProcessingServer' started. | 
+2025-08-19 14:26:17.0958 | DEBUG | Trd:10 | Hangfire.Server.ServerHeartbeat | Background process 'ServerHeartbeat' started. | 
+2025-08-19 14:26:17.0958 | DEBUG | Trd:11 | Hangfire.Server.ServerWatchdog | Background process 'ServerWatchdog' started. | 
+2025-08-19 14:26:17.1135 | DEBUG | Trd:12 | Hangfire.SqlServer.ExpirationManager | Background process 'Hangfire.SqlServer.ExpirationManager' started. | 
+2025-08-19 14:26:17.1265 | DEBUG | Trd:13 | Hangfire.SqlServer.CountersAggregator | Background process 'Hangfire.SqlServer.CountersAggregator' started. | 
+2025-08-19 14:26:17.1265 | DEBUG | Trd:12 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'AggregatedCounter' table... | 
+2025-08-19 14:26:17.1533 | DEBUG | Trd:14 | Hangfire.Server.Worker | Background process 'Worker #b5dff494' started. | 
+2025-08-19 14:26:17.1612 | DEBUG | Trd:13 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-19 14:26:17.1612 | DEBUG | Trd:15 | Hangfire.Server.Worker | Background process 'Worker #bec9fa65' started. | 
+2025-08-19 14:26:17.1727 | DEBUG | Trd:16 | Hangfire.Server.Worker | Background process 'Worker #865f206b' started. | 
+2025-08-19 14:26:17.1950 | DEBUG | Trd:18 | Hangfire.Server.Worker | Background process 'Worker #1dadda90' started. | 
+2025-08-19 14:26:17.1950 | DEBUG | Trd:17 | Hangfire.Server.Worker | Background process 'Worker #c457dd4b' started. | 
+2025-08-19 14:26:17.2053 | DEBUG | Trd:19 | Hangfire.Server.Worker | Background process 'Worker #b306a301' started. | 
+2025-08-19 14:26:17.2208 | DEBUG | Trd:20 | Hangfire.Server.Worker | Background process 'Worker #654477ba' started. | 
+2025-08-19 14:26:17.2208 | DEBUG | Trd:22 | Hangfire.Server.Worker | Background process 'Worker #f4078035' started. | 
+2025-08-19 14:26:17.2639 | DEBUG | Trd:23 | Hangfire.Server.Worker | Background process 'Worker #482b0010' started. | 
+2025-08-19 14:26:17.2673 | DEBUG | Trd:21 | Hangfire.Server.Worker | Background process 'Worker #350a8ecc' started. | 
+2025-08-19 14:26:17.2673 | DEBUG | Trd:24 | Hangfire.Server.Worker | Background process 'Worker #3dd5a078' started. | 
+2025-08-19 14:26:17.2878 | TRACE | Trd:12 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'AggregatedCounter' table. | 
+2025-08-19 14:26:17.2878 | DEBUG | Trd:12 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Job' table... | 
+2025-08-19 14:26:17.2878 | DEBUG | Trd:25 | Hangfire.Server.Worker | Background process 'Worker #212a464d' started. | 
+2025-08-19 14:26:17.2878 | TRACE | Trd:13 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-19 14:26:17.3041 | DEBUG | Trd:26 | Hangfire.Server.Worker | Background process 'Worker #8fcdf340' started. | 
+2025-08-19 14:26:17.3041 | DEBUG | Trd:27 | Hangfire.Server.Worker | Background process 'Worker #ec74509e' started. | 
+2025-08-19 14:26:17.3219 | DEBUG | Trd:28 | Hangfire.Server.Worker | Background process 'Worker #788316d7' started. | 
+2025-08-19 14:26:17.3388 | TRACE | Trd:12 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Job' table. | 
+2025-08-19 14:26:17.3743 | DEBUG | Trd:12 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'List' table... | 
+2025-08-19 14:26:17.3388 | DEBUG | Trd:29 | Hangfire.Server.Worker | Background process 'Worker #05c7b653' started. | 
+2025-08-19 14:26:17.3817 | DEBUG | Trd:30 | Hangfire.Server.Worker | Background process 'Worker #c70bcdec' started. | 
+2025-08-19 14:26:17.4027 | DEBUG | Trd:32 | Hangfire.Server.Worker | Background process 'Worker #332e1644' started. | 
+2025-08-19 14:26:17.4027 | TRACE | Trd:12 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'List' table. | 
+2025-08-19 14:26:17.4027 | DEBUG | Trd:12 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Set' table... | 
+2025-08-19 14:26:17.4131 | DEBUG | Trd:31 | Hangfire.Server.Worker | Background process 'Worker #a6d72e72' started. | 
+2025-08-19 14:26:17.4131 | DEBUG | Trd:33 | Hangfire.Server.Worker | Background process 'Worker #7f6d18ff' started. | 
+2025-08-19 14:26:17.4418 | TRACE | Trd:12 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Set' table. | 
+2025-08-19 14:26:17.4804 | DEBUG | Trd:12 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Hash' table... | 
+2025-08-19 14:26:17.4804 | DEBUG | Trd:34 | Hangfire.Server.DelayedJobScheduler | Background process 'DelayedJobScheduler' started. | 
+2025-08-19 14:26:17.4949 | DEBUG | Trd:35 | Hangfire.Server.RecurringJobScheduler | Background process 'RecurringJobScheduler' started. | 
+2025-08-19 14:26:17.5027 | TRACE | Trd:12 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Hash' table. | 
+2025-08-19 14:26:28.0543 | DEBUG | Trd:10 | Hangfire.Server.ServerHeartbeat | Background process 'ServerHeartbeat' stopped. | 
+2025-08-19 14:26:28.0543 | DEBUG | Trd:12 | Hangfire.SqlServer.ExpirationManager | Background process 'Hangfire.SqlServer.ExpirationManager' stopped. | 
+2025-08-19 14:26:28.0543 | DEBUG | Trd:11 | Hangfire.Server.ServerWatchdog | Background process 'ServerWatchdog' stopped. | 
+2025-08-19 14:26:28.0543 | DEBUG | Trd:13 | Hangfire.SqlServer.CountersAggregator | Background process 'Hangfire.SqlServer.CountersAggregator' stopped. | 
+2025-08-19 14:26:28.1107 | DEBUG | Trd:34 | Hangfire.Server.DelayedJobScheduler | Background process 'DelayedJobScheduler' stopped. | 
+2025-08-19 14:26:28.5020 | TRACE | Trd:17 | Hangfire.Server.Worker | Background process 'Worker #c457dd4b' was stopped due to a shutdown request. | 
+2025-08-19 14:26:28.5020 | DEBUG | Trd:17 | Hangfire.Server.Worker | Background process 'Worker #c457dd4b' stopped. | 
+2025-08-19 14:26:28.5020 | TRACE | Trd:16 | Hangfire.Server.Worker | Background process 'Worker #865f206b' was stopped due to a shutdown request. | 
+2025-08-19 14:26:28.5020 | DEBUG | Trd:16 | Hangfire.Server.Worker | Background process 'Worker #865f206b' stopped. | 
+2025-08-19 14:26:28.5020 | TRACE | Trd:29 | Hangfire.Server.Worker | Background process 'Worker #05c7b653' was stopped due to a shutdown request. | 
+2025-08-19 14:26:28.5020 | DEBUG | Trd:29 | Hangfire.Server.Worker | Background process 'Worker #05c7b653' stopped. | 
+2025-08-19 14:26:28.5020 | TRACE | Trd:19 | Hangfire.Server.Worker | Background process 'Worker #b306a301' was stopped due to a shutdown request. | 
+2025-08-19 14:26:28.5202 | DEBUG | Trd:19 | Hangfire.Server.Worker | Background process 'Worker #b306a301' stopped. | 
+2025-08-19 14:26:28.5202 | TRACE | Trd:18 | Hangfire.Server.Worker | Background process 'Worker #1dadda90' was stopped due to a shutdown request. | 
+2025-08-19 14:26:28.5202 | DEBUG | Trd:18 | Hangfire.Server.Worker | Background process 'Worker #1dadda90' stopped. | 
+2025-08-19 14:26:28.5020 | TRACE | Trd:30 | Hangfire.Server.Worker | Background process 'Worker #c70bcdec' was stopped due to a shutdown request. | 
+2025-08-19 14:26:28.5202 | DEBUG | Trd:30 | Hangfire.Server.Worker | Background process 'Worker #c70bcdec' stopped. | 
+2025-08-19 14:26:28.5020 | TRACE | Trd:15 | Hangfire.Server.Worker | Background process 'Worker #bec9fa65' was stopped due to a shutdown request. | 
+2025-08-19 14:26:28.5365 | DEBUG | Trd:15 | Hangfire.Server.Worker | Background process 'Worker #bec9fa65' stopped. | 
+2025-08-19 14:26:28.5020 | TRACE | Trd:14 | Hangfire.Server.Worker | Background process 'Worker #b5dff494' was stopped due to a shutdown request. | 
+2025-08-19 14:26:28.5365 | DEBUG | Trd:14 | Hangfire.Server.Worker | Background process 'Worker #b5dff494' stopped. | 
+2025-08-19 14:26:28.6372 | TRACE | Trd:33 | Hangfire.Server.Worker | Background process 'Worker #7f6d18ff' was stopped due to a shutdown request. | 
+2025-08-19 14:26:28.6372 | TRACE | Trd:23 | Hangfire.Server.Worker | Background process 'Worker #482b0010' was stopped due to a shutdown request. | 
+2025-08-19 14:26:28.6372 | DEBUG | Trd:33 | Hangfire.Server.Worker | Background process 'Worker #7f6d18ff' stopped. | 
+2025-08-19 14:26:28.6372 | TRACE | Trd:20 | Hangfire.Server.Worker | Background process 'Worker #654477ba' was stopped due to a shutdown request. | 
+2025-08-19 14:26:28.6372 | DEBUG | Trd:20 | Hangfire.Server.Worker | Background process 'Worker #654477ba' stopped. | 
+2025-08-19 14:26:28.6372 | DEBUG | Trd:23 | Hangfire.Server.Worker | Background process 'Worker #482b0010' stopped. | 
+2025-08-19 14:26:28.6372 | TRACE | Trd:24 | Hangfire.Server.Worker | Background process 'Worker #3dd5a078' was stopped due to a shutdown request. | 
+2025-08-19 14:26:28.6439 | DEBUG | Trd:24 | Hangfire.Server.Worker | Background process 'Worker #3dd5a078' stopped. | 
+2025-08-19 14:26:28.6372 | TRACE | Trd:27 | Hangfire.Server.Worker | Background process 'Worker #ec74509e' was stopped due to a shutdown request. | 
+2025-08-19 14:26:28.6439 | DEBUG | Trd:27 | Hangfire.Server.Worker | Background process 'Worker #ec74509e' stopped. | 
+2025-08-19 14:26:28.6439 | TRACE | Trd:28 | Hangfire.Server.Worker | Background process 'Worker #788316d7' was stopped due to a shutdown request. | 
+2025-08-19 14:26:28.6439 | DEBUG | Trd:28 | Hangfire.Server.Worker | Background process 'Worker #788316d7' stopped. | 
+2025-08-19 14:26:28.6439 | TRACE | Trd:35 | Hangfire.Server.RecurringJobScheduler | Background process 'RecurringJobScheduler' was stopped due to a shutdown request. | 
+2025-08-19 14:26:28.6439 | DEBUG | Trd:35 | Hangfire.Server.RecurringJobScheduler | Background process 'RecurringJobScheduler' stopped. | 
+2025-08-19 14:26:28.6372 | TRACE | Trd:31 | Hangfire.Server.Worker | Background process 'Worker #a6d72e72' was stopped due to a shutdown request. | 
+2025-08-19 14:26:28.6439 | DEBUG | Trd:31 | Hangfire.Server.Worker | Background process 'Worker #a6d72e72' stopped. | 
+2025-08-19 14:26:28.6372 | TRACE | Trd:21 | Hangfire.Server.Worker | Background process 'Worker #350a8ecc' was stopped due to a shutdown request. | 
+2025-08-19 14:26:28.6563 | DEBUG | Trd:21 | Hangfire.Server.Worker | Background process 'Worker #350a8ecc' stopped. | 
+2025-08-19 14:26:28.6372 | TRACE | Trd:26 | Hangfire.Server.Worker | Background process 'Worker #8fcdf340' was stopped due to a shutdown request. | 
+2025-08-19 14:26:28.6563 | DEBUG | Trd:26 | Hangfire.Server.Worker | Background process 'Worker #8fcdf340' stopped. | 
+2025-08-19 14:26:28.7396 | TRACE | Trd:25 | Hangfire.Server.Worker | Background process 'Worker #212a464d' was stopped due to a shutdown request. | 
+2025-08-19 14:26:28.7396 | DEBUG | Trd:25 | Hangfire.Server.Worker | Background process 'Worker #212a464d' stopped. | 
+2025-08-19 14:26:28.7396 | TRACE | Trd:22 | Hangfire.Server.Worker | Background process 'Worker #f4078035' was stopped due to a shutdown request. | 
+2025-08-19 14:26:28.7396 | DEBUG | Trd:22 | Hangfire.Server.Worker | Background process 'Worker #f4078035' stopped. | 
+2025-08-19 14:26:28.7584 | TRACE | Trd:32 | Hangfire.Server.Worker | Background process 'Worker #332e1644' was stopped due to a shutdown request. | 
+2025-08-19 14:26:28.7584 | DEBUG | Trd:32 | Hangfire.Server.Worker | Background process 'Worker #332e1644' stopped. | 
+2025-08-19 14:26:28.7948 | DEBUG | Trd:9 | Hangfire.Server.BackgroundProcessingServer | Background process 'BackgroundProcessingServer' stopped. | 
+2025-08-19 14:26:28.8008 | INFO | Trd:36 | Hangfire.BackgroundJobServer | Hangfire Server stopped. | 
+2025-08-19 14:26:28.8210 | INFO | Trd:36 | Hangfire.BackgroundJobServer | Hangfire Server stopped. | 
+2025-08-19 14:28:09.3614 | INFO | Trd:1 | Hangfire.SqlServer.SqlServerStorage | Start installing Hangfire SQL objects... | 
+2025-08-19 14:28:09.5323 | INFO | Trd:1 | Hangfire.SqlServer.SqlServerStorage | Hangfire SQL objects installed. | 
+2025-08-19 14:28:09.5323 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Starting Hangfire Server | 
+2025-08-19 14:28:09.5490 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using job storage: 'SQL Server: localhost\SQLEXPRESS@HecDatabase' | 
+2025-08-19 14:28:09.5490 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using the following options for SQL Server job storage: | 
+2025-08-19 14:28:09.5490 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Queue poll interval: 00:00:15. | 
+2025-08-19 14:28:09.5490 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using the following options for Hangfire Server: | 
+2025-08-19 14:28:09.5490 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Worker count: 20 | 
+2025-08-19 14:28:09.5490 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Listening queues: 'default' | 
+2025-08-19 14:28:09.5490 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Shutdown timeout: 00:00:15 | 
+2025-08-19 14:28:09.5490 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Schedule polling interval: 00:00:15 | 
+2025-08-19 14:28:09.5741 | DEBUG | Trd:9 | Hangfire.Server.BackgroundProcessingServer | Background process 'BackgroundProcessingServer' started. | 
+2025-08-19 14:28:09.8157 | DEBUG | Trd:13 | Hangfire.Server.ServerHeartbeat | Background process 'ServerHeartbeat' started. | 
+2025-08-19 14:28:09.8282 | DEBUG | Trd:14 | Hangfire.Server.ServerWatchdog | Background process 'ServerWatchdog' started. | 
+2025-08-19 14:28:09.8282 | DEBUG | Trd:15 | Hangfire.SqlServer.ExpirationManager | Background process 'Hangfire.SqlServer.ExpirationManager' started. | 
+2025-08-19 14:28:09.8664 | DEBUG | Trd:16 | Hangfire.SqlServer.CountersAggregator | Background process 'Hangfire.SqlServer.CountersAggregator' started. | 
+2025-08-19 14:28:09.8664 | DEBUG | Trd:15 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'AggregatedCounter' table... | 
+2025-08-19 14:28:09.8988 | DEBUG | Trd:17 | Hangfire.Server.Worker | Background process 'Worker #2a05d699' started. | 
+2025-08-19 14:28:09.8988 | DEBUG | Trd:16 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-19 14:28:09.9318 | DEBUG | Trd:18 | Hangfire.Server.Worker | Background process 'Worker #e28652fa' started. | 
+2025-08-19 14:28:09.9491 | DEBUG | Trd:19 | Hangfire.Server.Worker | Background process 'Worker #13f6ca5f' started. | 
+2025-08-19 14:28:09.9599 | DEBUG | Trd:20 | Hangfire.Server.Worker | Background process 'Worker #7cafab0e' started. | 
+2025-08-19 14:28:09.9710 | DEBUG | Trd:21 | Hangfire.Server.Worker | Background process 'Worker #0f9346aa' started. | 
+2025-08-19 14:28:09.9710 | DEBUG | Trd:22 | Hangfire.Server.Worker | Background process 'Worker #57f2fea3' started. | 
+2025-08-19 14:28:09.9929 | DEBUG | Trd:23 | Hangfire.Server.Worker | Background process 'Worker #01ba534a' started. | 
+2025-08-19 14:28:09.9929 | TRACE | Trd:16 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-19 14:28:09.9929 | TRACE | Trd:15 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'AggregatedCounter' table. | 
+2025-08-19 14:28:10.0014 | DEBUG | Trd:15 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Job' table... | 
+2025-08-19 14:28:10.0014 | DEBUG | Trd:24 | Hangfire.Server.Worker | Background process 'Worker #5165f8ed' started. | 
+2025-08-19 14:28:10.0323 | DEBUG | Trd:25 | Hangfire.Server.Worker | Background process 'Worker #8a723dee' started. | 
+2025-08-19 14:28:10.0323 | TRACE | Trd:15 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Job' table. | 
+2025-08-19 14:28:10.0465 | DEBUG | Trd:15 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'List' table... | 
+2025-08-19 14:28:10.0735 | DEBUG | Trd:26 | Hangfire.Server.Worker | Background process 'Worker #2603a67d' started. | 
+2025-08-19 14:28:10.0997 | TRACE | Trd:15 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'List' table. | 
+2025-08-19 14:28:10.0997 | DEBUG | Trd:15 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Set' table... | 
+2025-08-19 14:28:10.0997 | TRACE | Trd:15 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Set' table. | 
+2025-08-19 14:28:10.1119 | DEBUG | Trd:15 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Hash' table... | 
+2025-08-19 14:28:10.0997 | DEBUG | Trd:27 | Hangfire.Server.Worker | Background process 'Worker #628790f6' started. | 
+2025-08-19 14:28:10.1119 | DEBUG | Trd:28 | Hangfire.Server.Worker | Background process 'Worker #60ea2cb2' started. | 
+2025-08-19 14:28:10.1119 | TRACE | Trd:15 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Hash' table. | 
+2025-08-19 14:28:10.1295 | DEBUG | Trd:29 | Hangfire.Server.Worker | Background process 'Worker #443d9e06' started. | 
+2025-08-19 14:28:10.1435 | DEBUG | Trd:30 | Hangfire.Server.Worker | Background process 'Worker #887b138a' started. | 
+2025-08-19 14:28:10.1435 | DEBUG | Trd:31 | Hangfire.Server.Worker | Background process 'Worker #6f76012a' started. | 
+2025-08-19 14:28:10.1645 | DEBUG | Trd:32 | Hangfire.Server.Worker | Background process 'Worker #e2a80bd4' started. | 
+2025-08-19 14:28:10.1731 | DEBUG | Trd:33 | Hangfire.Server.Worker | Background process 'Worker #ed8cf172' started. | 
+2025-08-19 14:28:10.1880 | DEBUG | Trd:34 | Hangfire.Server.Worker | Background process 'Worker #fa2cb261' started. | 
+2025-08-19 14:28:10.1880 | DEBUG | Trd:35 | Hangfire.Server.Worker | Background process 'Worker #99620d7e' started. | 
+2025-08-19 14:28:10.1880 | DEBUG | Trd:36 | Hangfire.Server.Worker | Background process 'Worker #fa78ba3f' started. | 
+2025-08-19 14:28:10.2176 | DEBUG | Trd:37 | Hangfire.Server.DelayedJobScheduler | Background process 'DelayedJobScheduler' started. | 
+2025-08-19 14:28:10.2313 | DEBUG | Trd:38 | Hangfire.Server.RecurringJobScheduler | Background process 'RecurringJobScheduler' started. | 
+2025-08-19 14:28:19.6641 | DEBUG | Trd:13 | Hangfire.Server.ServerHeartbeat | Background process 'ServerHeartbeat' stopped. | 
+2025-08-19 14:28:19.6641 | DEBUG | Trd:15 | Hangfire.SqlServer.ExpirationManager | Background process 'Hangfire.SqlServer.ExpirationManager' stopped. | 
+2025-08-19 14:28:19.6641 | DEBUG | Trd:14 | Hangfire.Server.ServerWatchdog | Background process 'ServerWatchdog' stopped. | 
+2025-08-19 14:28:19.6641 | DEBUG | Trd:16 | Hangfire.SqlServer.CountersAggregator | Background process 'Hangfire.SqlServer.CountersAggregator' stopped. | 
+2025-08-19 14:28:19.7114 | DEBUG | Trd:37 | Hangfire.Server.DelayedJobScheduler | Background process 'DelayedJobScheduler' stopped. | 
+2025-08-19 14:28:19.9853 | TRACE | Trd:19 | Hangfire.Server.Worker | Background process 'Worker #13f6ca5f' was stopped due to a shutdown request. | 
+2025-08-19 14:28:19.9853 | DEBUG | Trd:19 | Hangfire.Server.Worker | Background process 'Worker #13f6ca5f' stopped. | 
+2025-08-19 14:28:19.9853 | TRACE | Trd:28 | Hangfire.Server.Worker | Background process 'Worker #60ea2cb2' was stopped due to a shutdown request. | 
+2025-08-19 14:28:20.0199 | DEBUG | Trd:28 | Hangfire.Server.Worker | Background process 'Worker #60ea2cb2' stopped. | 
+2025-08-19 14:28:20.0199 | TRACE | Trd:29 | Hangfire.Server.Worker | Background process 'Worker #443d9e06' was stopped due to a shutdown request. | 
+2025-08-19 14:28:20.0199 | DEBUG | Trd:29 | Hangfire.Server.Worker | Background process 'Worker #443d9e06' stopped. | 
+2025-08-19 14:28:20.0199 | TRACE | Trd:17 | Hangfire.Server.Worker | Background process 'Worker #2a05d699' was stopped due to a shutdown request. | 
+2025-08-19 14:28:20.0199 | TRACE | Trd:30 | Hangfire.Server.Worker | Background process 'Worker #887b138a' was stopped due to a shutdown request. | 
+2025-08-19 14:28:20.0441 | DEBUG | Trd:30 | Hangfire.Server.Worker | Background process 'Worker #887b138a' stopped. | 
+2025-08-19 14:28:19.9853 | TRACE | Trd:18 | Hangfire.Server.Worker | Background process 'Worker #e28652fa' was stopped due to a shutdown request. | 
+2025-08-19 14:28:20.0441 | DEBUG | Trd:18 | Hangfire.Server.Worker | Background process 'Worker #e28652fa' stopped. | 
+2025-08-19 14:28:20.0199 | DEBUG | Trd:17 | Hangfire.Server.Worker | Background process 'Worker #2a05d699' stopped. | 
+2025-08-19 14:28:19.9853 | TRACE | Trd:20 | Hangfire.Server.Worker | Background process 'Worker #7cafab0e' was stopped due to a shutdown request. | 
+2025-08-19 14:28:19.9853 | TRACE | Trd:21 | Hangfire.Server.Worker | Background process 'Worker #0f9346aa' was stopped due to a shutdown request. | 
+2025-08-19 14:28:20.0486 | DEBUG | Trd:20 | Hangfire.Server.Worker | Background process 'Worker #7cafab0e' stopped. | 
+2025-08-19 14:28:20.0486 | DEBUG | Trd:21 | Hangfire.Server.Worker | Background process 'Worker #0f9346aa' stopped. | 
+2025-08-19 14:28:19.9853 | TRACE | Trd:24 | Hangfire.Server.Worker | Background process 'Worker #5165f8ed' was stopped due to a shutdown request. | 
+2025-08-19 14:28:20.0486 | DEBUG | Trd:24 | Hangfire.Server.Worker | Background process 'Worker #5165f8ed' stopped. | 
+2025-08-19 14:28:20.0199 | TRACE | Trd:27 | Hangfire.Server.Worker | Background process 'Worker #628790f6' was stopped due to a shutdown request. | 
+2025-08-19 14:28:20.0486 | DEBUG | Trd:27 | Hangfire.Server.Worker | Background process 'Worker #628790f6' stopped. | 
+2025-08-19 14:28:20.0441 | TRACE | Trd:31 | Hangfire.Server.Worker | Background process 'Worker #6f76012a' was stopped due to a shutdown request. | 
+2025-08-19 14:28:20.0486 | DEBUG | Trd:31 | Hangfire.Server.Worker | Background process 'Worker #6f76012a' stopped. | 
+2025-08-19 14:28:20.0199 | TRACE | Trd:36 | Hangfire.Server.Worker | Background process 'Worker #fa78ba3f' was stopped due to a shutdown request. | 
+2025-08-19 14:28:20.0676 | DEBUG | Trd:36 | Hangfire.Server.Worker | Background process 'Worker #fa78ba3f' stopped. | 
+2025-08-19 14:28:19.9853 | TRACE | Trd:22 | Hangfire.Server.Worker | Background process 'Worker #57f2fea3' was stopped due to a shutdown request. | 
+2025-08-19 14:28:20.0676 | DEBUG | Trd:22 | Hangfire.Server.Worker | Background process 'Worker #57f2fea3' stopped. | 
+2025-08-19 14:28:19.9853 | TRACE | Trd:23 | Hangfire.Server.Worker | Background process 'Worker #01ba534a' was stopped due to a shutdown request. | 
+2025-08-19 14:28:20.0676 | DEBUG | Trd:23 | Hangfire.Server.Worker | Background process 'Worker #01ba534a' stopped. | 
+2025-08-19 14:28:20.2327 | TRACE | Trd:38 | Hangfire.Server.RecurringJobScheduler | Background process 'RecurringJobScheduler' was stopped due to a shutdown request. | 
+2025-08-19 14:28:20.2327 | DEBUG | Trd:38 | Hangfire.Server.RecurringJobScheduler | Background process 'RecurringJobScheduler' stopped. | 
+2025-08-19 14:28:20.3470 | TRACE | Trd:26 | Hangfire.Server.Worker | Background process 'Worker #2603a67d' was stopped due to a shutdown request. | 
+2025-08-19 14:28:20.3470 | DEBUG | Trd:26 | Hangfire.Server.Worker | Background process 'Worker #2603a67d' stopped. | 
+2025-08-19 14:28:20.4227 | TRACE | Trd:25 | Hangfire.Server.Worker | Background process 'Worker #8a723dee' was stopped due to a shutdown request. | 
+2025-08-19 14:28:20.4227 | TRACE | Trd:33 | Hangfire.Server.Worker | Background process 'Worker #ed8cf172' was stopped due to a shutdown request. | 
+2025-08-19 14:28:20.4227 | DEBUG | Trd:33 | Hangfire.Server.Worker | Background process 'Worker #ed8cf172' stopped. | 
+2025-08-19 14:28:20.4227 | DEBUG | Trd:25 | Hangfire.Server.Worker | Background process 'Worker #8a723dee' stopped. | 
+2025-08-19 14:28:20.4227 | TRACE | Trd:32 | Hangfire.Server.Worker | Background process 'Worker #e2a80bd4' was stopped due to a shutdown request. | 
+2025-08-19 14:28:20.4623 | DEBUG | Trd:32 | Hangfire.Server.Worker | Background process 'Worker #e2a80bd4' stopped. | 
+2025-08-19 14:28:20.4858 | TRACE | Trd:34 | Hangfire.Server.Worker | Background process 'Worker #fa2cb261' was stopped due to a shutdown request. | 
+2025-08-19 14:28:20.4858 | DEBUG | Trd:34 | Hangfire.Server.Worker | Background process 'Worker #fa2cb261' stopped. | 
+2025-08-19 14:28:20.4999 | TRACE | Trd:35 | Hangfire.Server.Worker | Background process 'Worker #99620d7e' was stopped due to a shutdown request. | 
+2025-08-19 14:28:20.4999 | DEBUG | Trd:35 | Hangfire.Server.Worker | Background process 'Worker #99620d7e' stopped. | 
+2025-08-19 14:28:20.5459 | DEBUG | Trd:9 | Hangfire.Server.BackgroundProcessingServer | Background process 'BackgroundProcessingServer' stopped. | 
+2025-08-19 14:28:20.5469 | INFO | Trd:10 | Hangfire.BackgroundJobServer | Hangfire Server stopped. | 
+2025-08-19 14:28:20.5469 | INFO | Trd:10 | Hangfire.BackgroundJobServer | Hangfire Server stopped. | 
+2025-08-19 14:32:25.4471 | INFO | Trd:1 | Hangfire.SqlServer.SqlServerStorage | Start installing Hangfire SQL objects... | 
+2025-08-19 14:32:25.7643 | INFO | Trd:1 | Hangfire.SqlServer.SqlServerStorage | Hangfire SQL objects installed. | 
+2025-08-19 14:32:25.8058 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Starting Hangfire Server | 
+2025-08-19 14:32:25.8161 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using job storage: 'SQL Server: localhost\SQLEXPRESS@HecDatabase' | 
+2025-08-19 14:32:25.8161 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using the following options for SQL Server job storage: | 
+2025-08-19 14:32:25.8161 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Queue poll interval: 00:00:15. | 
+2025-08-19 14:32:25.8161 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using the following options for Hangfire Server: | 
+2025-08-19 14:32:25.8161 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Worker count: 20 | 
+2025-08-19 14:32:25.8161 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Listening queues: 'default' | 
+2025-08-19 14:32:25.8161 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Shutdown timeout: 00:00:15 | 
+2025-08-19 14:32:25.8161 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Schedule polling interval: 00:00:15 | 
+2025-08-19 14:32:25.8811 | DEBUG | Trd:9 | Hangfire.Server.BackgroundProcessingServer | Background process 'BackgroundProcessingServer' started. | 
+2025-08-19 14:32:26.2525 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Starting Hangfire Server | 
+2025-08-19 14:32:26.2525 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using job storage: 'SQL Server: localhost\SQLEXPRESS@HecDatabase' | 
+2025-08-19 14:32:26.2525 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using the following options for SQL Server job storage: | 
+2025-08-19 14:32:26.2525 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Queue poll interval: 00:00:15. | 
+2025-08-19 14:32:26.2525 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using the following options for Hangfire Server: | 
+2025-08-19 14:32:26.2525 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Worker count: 20 | 
+2025-08-19 14:32:26.2525 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Listening queues: 'default' | 
+2025-08-19 14:32:26.2525 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Shutdown timeout: 00:00:15 | 
+2025-08-19 14:32:26.2525 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Schedule polling interval: 00:00:15 | 
+2025-08-19 14:32:26.2525 | DEBUG | Trd:10 | Hangfire.Server.BackgroundProcessingServer | Background process 'BackgroundProcessingServer' started. | 
+2025-08-19 14:32:26.6588 | DEBUG | Trd:13 | Hangfire.Server.ServerHeartbeat | Background process 'ServerHeartbeat' started. | 
+2025-08-19 14:32:26.6834 | DEBUG | Trd:12 | Hangfire.Server.ServerHeartbeat | Background process 'ServerHeartbeat' started. | 
+2025-08-19 14:32:26.6896 | DEBUG | Trd:14 | Hangfire.Server.ServerWatchdog | Background process 'ServerWatchdog' started. | 
+2025-08-19 14:32:26.7248 | DEBUG | Trd:15 | Hangfire.Server.ServerWatchdog | Background process 'ServerWatchdog' started. | 
+2025-08-19 14:32:26.8065 | DEBUG | Trd:16 | Hangfire.SqlServer.ExpirationManager | Background process 'Hangfire.SqlServer.ExpirationManager' started. | 
+2025-08-19 14:32:26.8065 | DEBUG | Trd:17 | Hangfire.SqlServer.ExpirationManager | Background process 'Hangfire.SqlServer.ExpirationManager' started. | 
+2025-08-19 14:32:26.8328 | DEBUG | Trd:19 | Hangfire.SqlServer.CountersAggregator | Background process 'Hangfire.SqlServer.CountersAggregator' started. | 
+2025-08-19 14:32:26.9696 | DEBUG | Trd:16 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'AggregatedCounter' table... | 
+2025-08-19 14:32:26.9565 | DEBUG | Trd:18 | Hangfire.SqlServer.CountersAggregator | Background process 'Hangfire.SqlServer.CountersAggregator' started. | 
+2025-08-19 14:32:26.8636 | DEBUG | Trd:20 | Hangfire.Server.Worker | Background process 'Worker #3f8358aa' started. | 
+2025-08-19 14:32:26.9696 | DEBUG | Trd:22 | Hangfire.Server.Worker | Background process 'Worker #2bf73127' started. | 
+2025-08-19 14:32:26.9464 | DEBUG | Trd:17 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'AggregatedCounter' table... | 
+2025-08-19 14:32:26.9696 | DEBUG | Trd:19 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-19 14:32:26.9696 | DEBUG | Trd:18 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-19 14:32:26.9957 | DEBUG | Trd:21 | Hangfire.Server.Worker | Background process 'Worker #139d6d45' started. | 
+2025-08-19 14:32:27.0956 | TRACE | Trd:18 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-19 14:32:27.0956 | TRACE | Trd:19 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-19 14:32:27.0956 | DEBUG | Trd:23 | Hangfire.Server.Worker | Background process 'Worker #2e18baf0' started. | 
+2025-08-19 14:32:27.1119 | DEBUG | Trd:24 | Hangfire.Server.Worker | Background process 'Worker #c2e0cf0e' started. | 
+2025-08-19 14:32:27.2161 | TRACE | Trd:16 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'AggregatedCounter' table. | 
+2025-08-19 14:32:27.2161 | DEBUG | Trd:16 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Job' table... | 
+2025-08-19 14:32:27.2161 | TRACE | Trd:17 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'AggregatedCounter' table. | 
+2025-08-19 14:32:27.2161 | DEBUG | Trd:17 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Job' table... | 
+2025-08-19 14:32:27.2310 | TRACE | Trd:16 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Job' table. | 
+2025-08-19 14:32:27.2310 | DEBUG | Trd:16 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'List' table... | 
+2025-08-19 14:32:27.2310 | TRACE | Trd:17 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Job' table. | 
+2025-08-19 14:32:27.2310 | DEBUG | Trd:17 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'List' table... | 
+2025-08-19 14:32:27.2310 | TRACE | Trd:16 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'List' table. | 
+2025-08-19 14:32:27.2310 | DEBUG | Trd:16 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Set' table... | 
+2025-08-19 14:32:27.2541 | TRACE | Trd:17 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'List' table. | 
+2025-08-19 14:32:27.2541 | DEBUG | Trd:17 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Set' table... | 
+2025-08-19 14:32:27.2541 | DEBUG | Trd:25 | Hangfire.Server.Worker | Background process 'Worker #dd9b0cdf' started. | 
+2025-08-19 14:32:27.2724 | TRACE | Trd:16 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Set' table. | 
+2025-08-19 14:32:27.2724 | DEBUG | Trd:16 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Hash' table... | 
+2025-08-19 14:32:27.2724 | TRACE | Trd:17 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Set' table. | 
+2025-08-19 14:32:27.2724 | DEBUG | Trd:17 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Hash' table... | 
+2025-08-19 14:32:27.2874 | TRACE | Trd:16 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Hash' table. | 
+2025-08-19 14:32:27.2874 | TRACE | Trd:17 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Hash' table. | 
+2025-08-19 14:32:27.3864 | DEBUG | Trd:26 | Hangfire.Server.Worker | Background process 'Worker #deff3aec' started. | 
+2025-08-19 14:32:27.4466 | DEBUG | Trd:28 | Hangfire.Server.Worker | Background process 'Worker #27e53abb' started. | 
+2025-08-19 14:32:27.5108 | DEBUG | Trd:27 | Hangfire.Server.Worker | Background process 'Worker #025d39f9' started. | 
+2025-08-19 14:32:27.5443 | DEBUG | Trd:29 | Hangfire.Server.Worker | Background process 'Worker #5a7377ed' started. | 
+2025-08-19 14:32:27.5587 | DEBUG | Trd:30 | Hangfire.Server.Worker | Background process 'Worker #2df36e21' started. | 
+2025-08-19 14:32:27.5720 | DEBUG | Trd:32 | Hangfire.Server.Worker | Background process 'Worker #317afbae' started. | 
+2025-08-19 14:32:27.5794 | DEBUG | Trd:33 | Hangfire.Server.Worker | Background process 'Worker #633177bf' started. | 
+2025-08-19 14:32:27.5794 | DEBUG | Trd:34 | Hangfire.Server.Worker | Background process 'Worker #a7babdaa' started. | 
+2025-08-19 14:32:27.6131 | DEBUG | Trd:35 | Hangfire.Server.Worker | Background process 'Worker #8ca1cf4b' started. | 
+2025-08-19 14:32:27.6775 | DEBUG | Trd:36 | Hangfire.Server.Worker | Background process 'Worker #f32f4c5d' started. | 
+2025-08-19 14:32:27.6931 | DEBUG | Trd:37 | Hangfire.Server.Worker | Background process 'Worker #e022093a' started. | 
+2025-08-19 14:32:27.7716 | DEBUG | Trd:31 | Hangfire.Server.Worker | Background process 'Worker #f4d4c4a6' started. | 
+2025-08-19 14:32:27.7716 | DEBUG | Trd:38 | Hangfire.Server.Worker | Background process 'Worker #c5592f5c' started. | 
+2025-08-19 14:32:27.7874 | DEBUG | Trd:39 | Hangfire.Server.Worker | Background process 'Worker #844422e7' started. | 
+2025-08-19 14:32:27.8242 | DEBUG | Trd:40 | Hangfire.Server.Worker | Background process 'Worker #939a7d92' started. | 
+2025-08-19 14:32:27.9192 | DEBUG | Trd:41 | Hangfire.Server.Worker | Background process 'Worker #33e99d49' started. | 
+2025-08-19 14:32:27.9216 | DEBUG | Trd:42 | Hangfire.Server.Worker | Background process 'Worker #67997e7d' started. | 
+2025-08-19 14:32:27.9216 | DEBUG | Trd:43 | Hangfire.Server.Worker | Background process 'Worker #f0f1e896' started. | 
+2025-08-19 14:32:28.0830 | DEBUG | Trd:44 | Hangfire.Server.Worker | Background process 'Worker #de1919e7' started. | 
+2025-08-19 14:32:28.0830 | DEBUG | Trd:45 | Hangfire.Server.Worker | Background process 'Worker #51a7bca5' started. | 
+2025-08-19 14:32:28.2277 | DEBUG | Trd:46 | Hangfire.Server.Worker | Background process 'Worker #4ae0e744' started. | 
+2025-08-19 14:32:28.2967 | DEBUG | Trd:47 | Hangfire.Server.Worker | Background process 'Worker #ea525570' started. | 
+2025-08-19 14:32:28.3248 | DEBUG | Trd:49 | Hangfire.Server.Worker | Background process 'Worker #1975dd54' started. | 
+2025-08-19 14:32:28.3292 | DEBUG | Trd:50 | Hangfire.Server.Worker | Background process 'Worker #86392172' started. | 
+2025-08-19 14:32:28.3975 | DEBUG | Trd:48 | Hangfire.Server.Worker | Background process 'Worker #60c7a138' started. | 
+2025-08-19 14:32:28.4239 | DEBUG | Trd:51 | Hangfire.Server.Worker | Background process 'Worker #95c2aee8' started. | 
+2025-08-19 14:32:28.4239 | DEBUG | Trd:52 | Hangfire.Server.Worker | Background process 'Worker #526cf6d6' started. | 
+2025-08-19 14:32:28.4844 | DEBUG | Trd:53 | Hangfire.Server.Worker | Background process 'Worker #b24a9c9b' started. | 
+2025-08-19 14:32:28.5160 | DEBUG | Trd:55 | Hangfire.Server.Worker | Background process 'Worker #b18109ef' started. | 
+2025-08-19 14:32:28.5160 | DEBUG | Trd:54 | Hangfire.Server.Worker | Background process 'Worker #092babf8' started. | 
+2025-08-19 14:32:28.5790 | DEBUG | Trd:57 | Hangfire.Server.Worker | Background process 'Worker #03c9a945' started. | 
+2025-08-19 14:32:28.5790 | DEBUG | Trd:56 | Hangfire.Server.DelayedJobScheduler | Background process 'DelayedJobScheduler' started. | 
+2025-08-19 14:32:28.6064 | DEBUG | Trd:58 | Hangfire.Server.Worker | Background process 'Worker #9f7b7b4c' started. | 
+2025-08-19 14:32:28.6617 | DEBUG | Trd:59 | Hangfire.Server.RecurringJobScheduler | Background process 'RecurringJobScheduler' started. | 
+2025-08-19 14:32:28.7490 | DEBUG | Trd:60 | Hangfire.Server.Worker | Background process 'Worker #756ebb6a' started. | 
+2025-08-19 14:32:28.7756 | DEBUG | Trd:61 | Hangfire.Server.Worker | Background process 'Worker #348ae33b' started. | 
+2025-08-19 14:32:28.8093 | DEBUG | Trd:62 | Hangfire.Server.DelayedJobScheduler | Background process 'DelayedJobScheduler' started. | 
+2025-08-19 14:32:28.8194 | DEBUG | Trd:63 | Hangfire.Server.RecurringJobScheduler | Background process 'RecurringJobScheduler' started. | 
+2025-08-19 14:32:46.2290 | INFO | Trd:1 | Hangfire.SqlServer.SqlServerStorage | Start installing Hangfire SQL objects... | 
+2025-08-19 14:32:46.2735 | INFO | Trd:1 | Hangfire.SqlServer.SqlServerStorage | Hangfire SQL objects installed. | 
+2025-08-19 14:32:46.2819 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Starting Hangfire Server | 
+2025-08-19 14:32:46.2819 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using job storage: 'SQL Server: localhost\SQLEXPRESS@HecDatabase' | 
+2025-08-19 14:32:46.2819 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using the following options for SQL Server job storage: | 
+2025-08-19 14:32:46.2819 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Queue poll interval: 00:00:15. | 
+2025-08-19 14:32:46.2819 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using the following options for Hangfire Server: | 
+2025-08-19 14:32:46.2819 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Worker count: 20 | 
+2025-08-19 14:32:46.2819 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Listening queues: 'default' | 
+2025-08-19 14:32:46.2819 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Shutdown timeout: 00:00:15 | 
+2025-08-19 14:32:46.2819 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Schedule polling interval: 00:00:15 | 
+2025-08-19 14:32:46.3157 | DEBUG | Trd:8 | Hangfire.Server.BackgroundProcessingServer | Background process 'BackgroundProcessingServer' started. | 
+2025-08-19 14:32:46.3822 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Starting Hangfire Server | 
+2025-08-19 14:32:46.3822 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using job storage: 'SQL Server: localhost\SQLEXPRESS@HecDatabase' | 
+2025-08-19 14:32:46.3822 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using the following options for SQL Server job storage: | 
+2025-08-19 14:32:46.3822 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Queue poll interval: 00:00:15. | 
+2025-08-19 14:32:46.3822 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using the following options for Hangfire Server: | 
+2025-08-19 14:32:46.3822 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Worker count: 20 | 
+2025-08-19 14:32:46.3822 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Listening queues: 'default' | 
+2025-08-19 14:32:46.3822 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Shutdown timeout: 00:00:15 | 
+2025-08-19 14:32:46.3822 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Schedule polling interval: 00:00:15 | 
+2025-08-19 14:32:46.3903 | DEBUG | Trd:9 | Hangfire.Server.BackgroundProcessingServer | Background process 'BackgroundProcessingServer' started. | 
+2025-08-19 14:32:46.5205 | DEBUG | Trd:11 | Hangfire.Server.ServerHeartbeat | Background process 'ServerHeartbeat' started. | 
+2025-08-19 14:32:46.5349 | DEBUG | Trd:14 | Hangfire.Server.ServerWatchdog | Background process 'ServerWatchdog' started. | 
+2025-08-19 14:32:46.5349 | DEBUG | Trd:13 | Hangfire.Server.ServerWatchdog | Background process 'ServerWatchdog' started. | 
+2025-08-19 14:32:46.5629 | DEBUG | Trd:15 | Hangfire.SqlServer.ExpirationManager | Background process 'Hangfire.SqlServer.ExpirationManager' started. | 
+2025-08-19 14:32:46.5629 | DEBUG | Trd:17 | Hangfire.SqlServer.CountersAggregator | Background process 'Hangfire.SqlServer.CountersAggregator' started. | 
+2025-08-19 14:32:46.5629 | DEBUG | Trd:15 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'AggregatedCounter' table... | 
+2025-08-19 14:32:46.5629 | DEBUG | Trd:16 | Hangfire.SqlServer.ExpirationManager | Background process 'Hangfire.SqlServer.ExpirationManager' started. | 
+2025-08-19 14:32:46.5629 | DEBUG | Trd:16 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'AggregatedCounter' table... | 
+2025-08-19 14:32:46.5629 | DEBUG | Trd:12 | Hangfire.Server.ServerHeartbeat | Background process 'ServerHeartbeat' started. | 
+2025-08-19 14:32:46.5629 | DEBUG | Trd:17 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-19 14:32:46.5846 | DEBUG | Trd:18 | Hangfire.Server.Worker | Background process 'Worker #519f4a1b' started. | 
+2025-08-19 14:32:46.5983 | DEBUG | Trd:20 | Hangfire.Server.Worker | Background process 'Worker #1412f8a5' started. | 
+2025-08-19 14:32:46.6185 | DEBUG | Trd:19 | Hangfire.SqlServer.CountersAggregator | Background process 'Hangfire.SqlServer.CountersAggregator' started. | 
+2025-08-19 14:32:46.6185 | DEBUG | Trd:19 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-19 14:32:46.6349 | DEBUG | Trd:21 | Hangfire.Server.Worker | Background process 'Worker #390afefe' started. | 
+2025-08-19 14:32:46.6425 | TRACE | Trd:16 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'AggregatedCounter' table. | 
+2025-08-19 14:32:46.6671 | DEBUG | Trd:16 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Job' table... | 
+2025-08-19 14:32:46.6671 | DEBUG | Trd:22 | Hangfire.Server.Worker | Background process 'Worker #152617c4' started. | 
+2025-08-19 14:32:46.6671 | TRACE | Trd:15 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'AggregatedCounter' table. | 
+2025-08-19 14:32:46.6730 | DEBUG | Trd:15 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Job' table... | 
+2025-08-19 14:32:46.6425 | TRACE | Trd:19 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-19 14:32:46.6730 | TRACE | Trd:16 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Job' table. | 
+2025-08-19 14:32:46.6730 | DEBUG | Trd:16 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'List' table... | 
+2025-08-19 14:32:46.6730 | DEBUG | Trd:23 | Hangfire.Server.Worker | Background process 'Worker #1960f4c4' started. | 
+2025-08-19 14:32:46.6671 | TRACE | Trd:17 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-19 14:32:46.6888 | TRACE | Trd:16 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'List' table. | 
+2025-08-19 14:32:46.6888 | DEBUG | Trd:16 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Set' table... | 
+2025-08-19 14:32:46.6730 | TRACE | Trd:15 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Job' table. | 
+2025-08-19 14:32:46.6888 | DEBUG | Trd:15 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'List' table... | 
+2025-08-19 14:32:46.6888 | TRACE | Trd:16 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Set' table. | 
+2025-08-19 14:32:46.6888 | DEBUG | Trd:16 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Hash' table... | 
+2025-08-19 14:32:46.6888 | TRACE | Trd:15 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'List' table. | 
+2025-08-19 14:32:46.6888 | DEBUG | Trd:15 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Set' table... | 
+2025-08-19 14:32:46.6888 | DEBUG | Trd:25 | Hangfire.Server.Worker | Background process 'Worker #3afa49a4' started. | 
+2025-08-19 14:32:46.7053 | TRACE | Trd:16 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Hash' table. | 
+2025-08-19 14:32:46.7195 | DEBUG | Trd:26 | Hangfire.Server.Worker | Background process 'Worker #1bd3cc2c' started. | 
+2025-08-19 14:32:46.7351 | TRACE | Trd:15 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Set' table. | 
+2025-08-19 14:32:46.7351 | DEBUG | Trd:15 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Hash' table... | 
+2025-08-19 14:32:46.7351 | TRACE | Trd:15 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Hash' table. | 
+2025-08-19 14:32:46.7505 | DEBUG | Trd:24 | Hangfire.Server.Worker | Background process 'Worker #e4857e3b' started. | 
+2025-08-19 14:32:46.7505 | DEBUG | Trd:27 | Hangfire.Server.Worker | Background process 'Worker #fbb9187f' started. | 
+2025-08-19 14:32:46.7682 | DEBUG | Trd:29 | Hangfire.Server.Worker | Background process 'Worker #1b0c18ea' started. | 
+2025-08-19 14:32:46.7682 | DEBUG | Trd:30 | Hangfire.Server.Worker | Background process 'Worker #186a6460' started. | 
+2025-08-19 14:32:46.7824 | DEBUG | Trd:31 | Hangfire.Server.Worker | Background process 'Worker #279fad99' started. | 
+2025-08-19 14:32:46.7824 | DEBUG | Trd:33 | Hangfire.Server.Worker | Background process 'Worker #f6152cd5' started. | 
+2025-08-19 14:32:46.7824 | DEBUG | Trd:28 | Hangfire.Server.Worker | Background process 'Worker #6ace7b15' started. | 
+2025-08-19 14:32:46.7824 | DEBUG | Trd:35 | Hangfire.Server.Worker | Background process 'Worker #004f9971' started. | 
+2025-08-19 14:32:46.8024 | DEBUG | Trd:32 | Hangfire.Server.Worker | Background process 'Worker #da25123b' started. | 
+2025-08-19 14:32:46.8024 | DEBUG | Trd:34 | Hangfire.Server.Worker | Background process 'Worker #c1a1c483' started. | 
+2025-08-19 14:32:46.8204 | DEBUG | Trd:37 | Hangfire.Server.Worker | Background process 'Worker #abb061ed' started. | 
+2025-08-19 14:32:46.8307 | DEBUG | Trd:36 | Hangfire.Server.Worker | Background process 'Worker #a39f73e3' started. | 
+2025-08-19 14:32:46.8307 | DEBUG | Trd:38 | Hangfire.Server.Worker | Background process 'Worker #f0a2d771' started. | 
+2025-08-19 14:32:46.8469 | DEBUG | Trd:41 | Hangfire.Server.Worker | Background process 'Worker #5fc41c1f' started. | 
+2025-08-19 14:32:46.8469 | DEBUG | Trd:42 | Hangfire.Server.Worker | Background process 'Worker #87f17e98' started. | 
+2025-08-19 14:32:46.8620 | DEBUG | Trd:43 | Hangfire.Server.Worker | Background process 'Worker #d8bd3b12' started. | 
+2025-08-19 14:32:46.8747 | DEBUG | Trd:40 | Hangfire.Server.Worker | Background process 'Worker #77c04239' started. | 
+2025-08-19 14:32:46.8747 | DEBUG | Trd:45 | Hangfire.Server.Worker | Background process 'Worker #4f738518' started. | 
+2025-08-19 14:32:46.8934 | DEBUG | Trd:39 | Hangfire.Server.Worker | Background process 'Worker #e501a40b' started. | 
+2025-08-19 14:32:46.8934 | DEBUG | Trd:44 | Hangfire.Server.Worker | Background process 'Worker #34a47d36' started. | 
+2025-08-19 14:32:46.9406 | DEBUG | Trd:46 | Hangfire.Server.Worker | Background process 'Worker #4bfe93c2' started. | 
+2025-08-19 14:32:46.9563 | DEBUG | Trd:47 | Hangfire.Server.Worker | Background process 'Worker #b0a14333' started. | 
+2025-08-19 14:32:46.9839 | DEBUG | Trd:48 | Hangfire.Server.Worker | Background process 'Worker #19a2735b' started. | 
+2025-08-19 14:32:47.0298 | DEBUG | Trd:49 | Hangfire.Server.Worker | Background process 'Worker #7e54a341' started. | 
+2025-08-19 14:32:47.1327 | DEBUG | Trd:52 | Hangfire.Server.Worker | Background process 'Worker #05c6f990' started. | 
+2025-08-19 14:32:47.1327 | DEBUG | Trd:50 | Hangfire.Server.Worker | Background process 'Worker #bd2f7acd' started. | 
+2025-08-19 14:32:47.1471 | DEBUG | Trd:51 | Hangfire.Server.Worker | Background process 'Worker #94e206e5' started. | 
+2025-08-19 14:32:47.2292 | DEBUG | Trd:54 | Hangfire.Server.Worker | Background process 'Worker #880550ff' started. | 
+2025-08-19 14:32:47.2577 | DEBUG | Trd:53 | Hangfire.Server.Worker | Background process 'Worker #d2da405f' started. | 
+2025-08-19 14:32:47.2862 | DEBUG | Trd:55 | Hangfire.Server.Worker | Background process 'Worker #2c1e9680' started. | 
+2025-08-19 14:32:47.3062 | DEBUG | Trd:57 | Hangfire.Server.Worker | Background process 'Worker #a5815fc5' started. | 
+2025-08-19 14:32:47.3345 | DEBUG | Trd:56 | Hangfire.Server.Worker | Background process 'Worker #93bf5a85' started. | 
+2025-08-19 14:32:47.4265 | DEBUG | Trd:59 | Hangfire.Server.DelayedJobScheduler | Background process 'DelayedJobScheduler' started. | 
+2025-08-19 14:32:47.5230 | DEBUG | Trd:58 | Hangfire.Server.Worker | Background process 'Worker #18ab7bdf' started. | 
+2025-08-19 14:32:47.5426 | DEBUG | Trd:60 | Hangfire.Server.RecurringJobScheduler | Background process 'RecurringJobScheduler' started. | 
+2025-08-19 14:32:47.5906 | DEBUG | Trd:61 | Hangfire.Server.DelayedJobScheduler | Background process 'DelayedJobScheduler' started. | 
+2025-08-19 14:32:47.6100 | DEBUG | Trd:62 | Hangfire.Server.RecurringJobScheduler | Background process 'RecurringJobScheduler' started. | 
+2025-08-19 14:33:01.6187 | DEBUG | Trd:18 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-19 14:33:09.6660 | DEBUG | Trd:18 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-19 14:33:09.6963 | DEBUG | Trd:18 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-20 10:05:24.6717 | INFO | Trd:1 | Hangfire.SqlServer.SqlServerStorage | Start installing Hangfire SQL objects... | 
+2025-08-20 10:05:24.8756 | INFO | Trd:1 | Hangfire.SqlServer.SqlServerStorage | Hangfire SQL objects installed. | 
+2025-08-20 10:05:24.8756 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Starting Hangfire Server | 
+2025-08-20 10:05:24.8895 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using job storage: 'SQL Server: localhost\SQLEXPRESS@HecDatabase' | 
+2025-08-20 10:05:24.8895 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using the following options for SQL Server job storage: | 
+2025-08-20 10:05:24.8895 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Queue poll interval: 00:00:15. | 
+2025-08-20 10:05:24.8895 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using the following options for Hangfire Server: | 
+2025-08-20 10:05:24.8895 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Worker count: 20 | 
+2025-08-20 10:05:24.8895 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Listening queues: 'default' | 
+2025-08-20 10:05:24.8895 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Shutdown timeout: 00:00:15 | 
+2025-08-20 10:05:24.8895 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Schedule polling interval: 00:00:15 | 
+2025-08-20 10:05:24.9471 | DEBUG | Trd:8 | Hangfire.Server.BackgroundProcessingServer | Background process 'BackgroundProcessingServer' started. | 
+2025-08-20 10:05:25.0249 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Starting Hangfire Server | 
+2025-08-20 10:05:25.0249 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using job storage: 'SQL Server: localhost\SQLEXPRESS@HecDatabase' | 
+2025-08-20 10:05:25.0249 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using the following options for SQL Server job storage: | 
+2025-08-20 10:05:25.0249 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Queue poll interval: 00:00:15. | 
+2025-08-20 10:05:25.0249 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using the following options for Hangfire Server: | 
+2025-08-20 10:05:25.0249 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Worker count: 20 | 
+2025-08-20 10:05:25.0249 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Listening queues: 'default' | 
+2025-08-20 10:05:25.0249 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Shutdown timeout: 00:00:15 | 
+2025-08-20 10:05:25.0249 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Schedule polling interval: 00:00:15 | 
+2025-08-20 10:05:25.0321 | DEBUG | Trd:9 | Hangfire.Server.BackgroundProcessingServer | Background process 'BackgroundProcessingServer' started. | 
+2025-08-20 10:05:25.1723 | DEBUG | Trd:11 | Hangfire.Server.ServerHeartbeat | Background process 'ServerHeartbeat' started. | 
+2025-08-20 10:05:25.1723 | DEBUG | Trd:12 | Hangfire.Server.ServerHeartbeat | Background process 'ServerHeartbeat' started. | 
+2025-08-20 10:05:25.2044 | DEBUG | Trd:13 | Hangfire.Server.ServerWatchdog | Background process 'ServerWatchdog' started. | 
+2025-08-20 10:05:25.2044 | DEBUG | Trd:14 | Hangfire.Server.ServerWatchdog | Background process 'ServerWatchdog' started. | 
+2025-08-20 10:05:25.2044 | DEBUG | Trd:15 | Hangfire.SqlServer.ExpirationManager | Background process 'Hangfire.SqlServer.ExpirationManager' started. | 
+2025-08-20 10:05:25.2044 | DEBUG | Trd:17 | Hangfire.SqlServer.CountersAggregator | Background process 'Hangfire.SqlServer.CountersAggregator' started. | 
+2025-08-20 10:05:25.2044 | DEBUG | Trd:15 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'AggregatedCounter' table... | 
+2025-08-20 10:05:25.2502 | INFO | Trd:14 | Hangfire.Server.ServerWatchdog | 1 servers were removed due to timeout | 
+2025-08-20 10:05:25.2502 | DEBUG | Trd:16 | Hangfire.SqlServer.ExpirationManager | Background process 'Hangfire.SqlServer.ExpirationManager' started. | 
+2025-08-20 10:05:25.2502 | DEBUG | Trd:17 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-20 10:05:25.2816 | DEBUG | Trd:16 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'AggregatedCounter' table... | 
+2025-08-20 10:05:25.3149 | DEBUG | Trd:20 | Hangfire.Server.Worker | Background process 'Worker #bb39c161' started. | 
+2025-08-20 10:05:25.3149 | DEBUG | Trd:18 | Hangfire.Server.Worker | Background process 'Worker #ec3214f7' started. | 
+2025-08-20 10:05:25.3149 | DEBUG | Trd:19 | Hangfire.SqlServer.CountersAggregator | Background process 'Hangfire.SqlServer.CountersAggregator' started. | 
+2025-08-20 10:05:25.3149 | DEBUG | Trd:19 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-20 10:05:25.3149 | DEBUG | Trd:22 | Hangfire.Server.Worker | Background process 'Worker #cc27041e' started. | 
+2025-08-20 10:05:25.3255 | DEBUG | Trd:21 | Hangfire.Server.Worker | Background process 'Worker #8fe9e88a' started. | 
+2025-08-20 10:05:25.3255 | DEBUG | Trd:24 | Hangfire.Server.Worker | Background process 'Worker #6b6e6d01' started. | 
+2025-08-20 10:05:25.3255 | DEBUG | Trd:25 | Hangfire.Server.Worker | Background process 'Worker #7ad4aad3' started. | 
+2025-08-20 10:05:25.3255 | DEBUG | Trd:26 | Hangfire.Server.Worker | Background process 'Worker #df3f3b86' started. | 
+2025-08-20 10:05:25.3433 | DEBUG | Trd:23 | Hangfire.Server.Worker | Background process 'Worker #2fe65e0c' started. | 
+2025-08-20 10:05:25.3433 | DEBUG | Trd:27 | Hangfire.Server.Worker | Background process 'Worker #44670820' started. | 
+2025-08-20 10:05:25.3433 | DEBUG | Trd:28 | Hangfire.Server.Worker | Background process 'Worker #0d38f914' started. | 
+2025-08-20 10:05:25.3569 | DEBUG | Trd:29 | Hangfire.Server.Worker | Background process 'Worker #1293df93' started. | 
+2025-08-20 10:05:25.3569 | DEBUG | Trd:31 | Hangfire.Server.Worker | Background process 'Worker #3de10ead' started. | 
+2025-08-20 10:05:25.3569 | DEBUG | Trd:32 | Hangfire.Server.Worker | Background process 'Worker #e4bbc991' started. | 
+2025-08-20 10:05:25.3968 | TRACE | Trd:16 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'AggregatedCounter' table. | 
+2025-08-20 10:05:25.3968 | DEBUG | Trd:16 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Job' table... | 
+2025-08-20 10:05:25.3968 | TRACE | Trd:15 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'AggregatedCounter' table. | 
+2025-08-20 10:05:25.3968 | DEBUG | Trd:15 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Job' table... | 
+2025-08-20 10:05:25.3968 | DEBUG | Trd:33 | Hangfire.Server.Worker | Background process 'Worker #05343adb' started. | 
+2025-08-20 10:05:25.3968 | TRACE | Trd:19 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-20 10:05:25.3968 | TRACE | Trd:17 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-20 10:05:25.4038 | DEBUG | Trd:34 | Hangfire.Server.Worker | Background process 'Worker #55acf161' started. | 
+2025-08-20 10:05:25.4038 | DEBUG | Trd:30 | Hangfire.Server.Worker | Background process 'Worker #ca835ab7' started. | 
+2025-08-20 10:05:25.4038 | DEBUG | Trd:36 | Hangfire.Server.Worker | Background process 'Worker #05b02a97' started. | 
+2025-08-20 10:05:25.4038 | DEBUG | Trd:35 | Hangfire.Server.Worker | Background process 'Worker #3bb27c1c' started. | 
+2025-08-20 10:05:25.4562 | TRACE | Trd:15 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Job' table. | 
+2025-08-20 10:05:25.4562 | DEBUG | Trd:15 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'List' table... | 
+2025-08-20 10:05:25.4562 | DEBUG | Trd:38 | Hangfire.Server.Worker | Background process 'Worker #7ad603b4' started. | 
+2025-08-20 10:05:25.4562 | TRACE | Trd:16 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Job' table. | 
+2025-08-20 10:05:25.4562 | DEBUG | Trd:16 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'List' table... | 
+2025-08-20 10:05:25.4759 | DEBUG | Trd:37 | Hangfire.Server.Worker | Background process 'Worker #ffa23095' started. | 
+2025-08-20 10:05:25.4858 | TRACE | Trd:16 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'List' table. | 
+2025-08-20 10:05:25.4858 | DEBUG | Trd:39 | Hangfire.Server.Worker | Background process 'Worker #1a10eeb6' started. | 
+2025-08-20 10:05:25.4858 | DEBUG | Trd:16 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Set' table... | 
+2025-08-20 10:05:25.4858 | TRACE | Trd:15 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'List' table. | 
+2025-08-20 10:05:25.4858 | DEBUG | Trd:15 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Set' table... | 
+2025-08-20 10:05:25.4858 | DEBUG | Trd:41 | Hangfire.Server.Worker | Background process 'Worker #165f8242' started. | 
+2025-08-20 10:05:25.5192 | DEBUG | Trd:40 | Hangfire.Server.Worker | Background process 'Worker #c4771d84' started. | 
+2025-08-20 10:05:25.5192 | TRACE | Trd:16 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Set' table. | 
+2025-08-20 10:05:25.5192 | DEBUG | Trd:16 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Hash' table... | 
+2025-08-20 10:05:25.5192 | DEBUG | Trd:42 | Hangfire.Server.Worker | Background process 'Worker #817d2538' started. | 
+2025-08-20 10:05:25.5192 | TRACE | Trd:15 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Set' table. | 
+2025-08-20 10:05:25.5192 | DEBUG | Trd:15 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Hash' table... | 
+2025-08-20 10:05:25.5289 | DEBUG | Trd:45 | Hangfire.Server.Worker | Background process 'Worker #6be81a80' started. | 
+2025-08-20 10:05:25.5289 | TRACE | Trd:16 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Hash' table. | 
+2025-08-20 10:05:25.5289 | DEBUG | Trd:46 | Hangfire.Server.Worker | Background process 'Worker #e8e7f466' started. | 
+2025-08-20 10:05:25.5289 | TRACE | Trd:15 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Hash' table. | 
+2025-08-20 10:05:25.5289 | DEBUG | Trd:47 | Hangfire.Server.Worker | Background process 'Worker #bae80814' started. | 
+2025-08-20 10:05:25.5289 | DEBUG | Trd:44 | Hangfire.Server.Worker | Background process 'Worker #2d35d967' started. | 
+2025-08-20 10:05:25.5471 | DEBUG | Trd:43 | Hangfire.Server.Worker | Background process 'Worker #7c16f842' started. | 
+2025-08-20 10:05:25.5471 | DEBUG | Trd:49 | Hangfire.Server.Worker | Background process 'Worker #d647997c' started. | 
+2025-08-20 10:05:25.5471 | DEBUG | Trd:48 | Hangfire.Server.Worker | Background process 'Worker #5d83505f' started. | 
+2025-08-20 10:05:25.5630 | DEBUG | Trd:51 | Hangfire.Server.Worker | Background process 'Worker #447644eb' started. | 
+2025-08-20 10:05:25.5630 | DEBUG | Trd:52 | Hangfire.Server.Worker | Background process 'Worker #fa755fa6' started. | 
+2025-08-20 10:05:25.5772 | DEBUG | Trd:53 | Hangfire.Server.Worker | Background process 'Worker #32a31de9' started. | 
+2025-08-20 10:05:25.5772 | DEBUG | Trd:54 | Hangfire.Server.Worker | Background process 'Worker #3a00a6d9' started. | 
+2025-08-20 10:05:25.5772 | DEBUG | Trd:50 | Hangfire.Server.Worker | Background process 'Worker #92379852' started. | 
+2025-08-20 10:05:25.5949 | DEBUG | Trd:55 | Hangfire.Server.Worker | Background process 'Worker #06df55b1' started. | 
+2025-08-20 10:05:25.5949 | DEBUG | Trd:57 | Hangfire.Server.Worker | Background process 'Worker #48d20876' started. | 
+2025-08-20 10:05:25.5949 | DEBUG | Trd:56 | Hangfire.Server.Worker | Background process 'Worker #6d0b3885' started. | 
+2025-08-20 10:05:25.6136 | DEBUG | Trd:58 | Hangfire.Server.Worker | Background process 'Worker #cde18251' started. | 
+2025-08-20 10:05:25.6136 | DEBUG | Trd:60 | Hangfire.Server.DelayedJobScheduler | Background process 'DelayedJobScheduler' started. | 
+2025-08-20 10:05:25.6253 | DEBUG | Trd:62 | Hangfire.Server.RecurringJobScheduler | Background process 'RecurringJobScheduler' started. | 
+2025-08-20 10:05:25.6253 | DEBUG | Trd:61 | Hangfire.Server.RecurringJobScheduler | Background process 'RecurringJobScheduler' started. | 
+2025-08-20 10:05:25.6402 | DEBUG | Trd:59 | Hangfire.Server.DelayedJobScheduler | Background process 'DelayedJobScheduler' started. | 
+2025-08-20 10:06:01.2583 | DEBUG | Trd:18 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-20 10:06:01.3113 | DEBUG | Trd:18 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-20 10:06:01.3113 | DEBUG | Trd:18 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-20 10:07:00.8101 | DEBUG | Trd:18 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-20 10:07:00.8101 | DEBUG | Trd:18 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-20 10:07:00.8101 | DEBUG | Trd:18 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
