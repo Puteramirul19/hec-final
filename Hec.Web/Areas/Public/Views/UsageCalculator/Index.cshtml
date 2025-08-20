@@ -615,18 +615,23 @@
                 });
             }
 
-            // Get tariff block and billing components (Updated July 2025)
-            var tariffTiers = 0, tariffRemaining = 0, billingComponents = null;
+            // Get energy rates and billing components (Updated July 2025)
+            var energyRates = null, billingComponents = null;
+            // Keep old variables for backward compatibility (other pages may use them)
+            var tariffTiers = 0, tariffRemaining = 0;
             $.ajax({
                 url: "@Url.Action("ReadTariff", "UsageCalculator")",
                 type: 'GET',
                 dataType: 'json',
                 async: false,
                 success: function (data, textStatus, jqXHR) {
-                    // Handle new structure (July 2025 update)
-                    tariffTiers = data.energyTiers;
-                    tariffRemaining = data.energyRemaining;
+                    // New energy rates structure (July 2025 update)
+                    energyRates = data.energyRates;
                     billingComponents = data.components;
+
+                    // Keep old structure for backward compatibility
+                    tariffTiers = data.tiers;
+                    tariffRemaining = data.remaining;
                 }
             });
 
@@ -1209,23 +1214,15 @@
 
                 // ===== NEW COMPLEX BILLING CALCULATION (July 2025) =====
 
-                // 1. ENERGY COST (Using existing tariff blocks)
-                var energyBalance = totalKwh;
+                // 1. ENERGY COST (New fixed rates effective July 2025 - no longer use tariff blocks)
                 var energyCost = 0;
-                for (var i = 0; i < tariffTiers.length; i++) {
-                    var boundary = tariffTiers[i].boundary;
-                    var rate = tariffTiers[i].rate;
-
-                    if (energyBalance > boundary) {
-                        energyCost += boundary * rate;
-                        energyBalance = energyBalance - boundary;
-                    } else {
-                        energyCost += energyBalance * rate;
-                        energyBalance = 0;
-                        break;
-                    }
+                if (totalKwh <= 1500) {
+                    // Dom-Gen <1500: 0.27030 RM/kWh
+                    energyCost = totalKwh * 0.27030;
+                } else {
+                    // Dom-Gen >1501: 0.37030 RM/kWh
+                    energyCost = totalKwh * 0.37030;
                 }
-                if (energyBalance > 0) energyCost += energyBalance * tariffRemaining;
 
                 // 2. AFA (Automated Fuel Cost Adjustment) - 0.0000 RM/kWh as of July 2025
                 var afaCost = 0;

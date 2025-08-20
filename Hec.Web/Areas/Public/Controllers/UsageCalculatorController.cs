@@ -153,10 +153,17 @@ namespace Hec.Web.Areas.Public.Controllers
         /// <returns>TariffBlock with Complex Billing Structure and Tiered EEI</returns>
         public ActionResult ReadTariff()
         {
-            // Keep existing energy tariff blocks
+            // New fixed energy rates (no longer use tariff blocks after July 1, 2025)
+            var energyRates = new
+            {
+                domesticLow = 0.27030,   // Dom-Gen <1500 kWh
+                domesticHigh = 0.37030,  // Dom-Gen >1501 kWh
+                threshold = 1500
+            };
+
+            // Keep old format for backward compatibility (other pages may still use this)
             var list = db.Tariffs.OrderBy(x => x.Sequence).ToList();
             var count = list.Count();
-
             var energyTiers = list.Take(count - 1).Select(x => new { boundary = x.BoundryTier, rate = x.TariffPerKWh });
             var energyRemaining = list[count - 1].TariffPerKWh;
 
@@ -167,9 +174,8 @@ namespace Hec.Web.Areas.Public.Controllers
                 tiers = energyTiers,
                 remaining = energyRemaining,
 
-                // NEW FORMAT (for new complex billing)
-                energyTiers = energyTiers,
-                energyRemaining = energyRemaining,
+                // NEW FORMAT (for new complex billing with fixed energy rates)
+                energyRates = energyRates,
 
                 // Additional billing components (as per Excel)
                 components = new
