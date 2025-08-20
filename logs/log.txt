@@ -708,3 +708,6 @@
 2025-08-20 10:08:00.4881 | DEBUG | Trd:18 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
 2025-08-20 10:08:00.4881 | DEBUG | Trd:18 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
 2025-08-20 10:08:00.4881 | DEBUG | Trd:18 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-20 10:09:01.0349 | DEBUG | Trd:32 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-20 10:09:01.0349 | DEBUG | Trd:32 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-20 10:09:01.0349 | DEBUG | Trd:32 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
