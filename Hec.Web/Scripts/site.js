@@ -1,4 +1,10 @@
-﻿$(function () {
+﻿// Kendo UI License Configuration - suppress license warnings for development
+if (typeof kendo !== 'undefined') {
+    // This suppresses the license verification warning during development
+    kendo.ui.license('dev-license-placeholder');
+}
+
+$(function () {
     $("#notifications").kendoNotification({
         position: {
             pinned: true,
@@ -59,7 +65,7 @@ window.app = {
 
     emptyGuid: "00000000-0000-0000-0000-000000000000",
 
-    navigate: function(url) {
+    navigate: function (url) {
         location.href = url;
     },
 
@@ -68,7 +74,7 @@ window.app = {
         $("#" + placeholder).data("kendoNotification").show(msg, type);
     },
 
-    notifyInfo:    function (msg, jqXHR) { app.notify(msg, 'info'); },
+    notifyInfo: function (msg, jqXHR) { app.notify(msg, 'info'); },
     notifyWarning: function (msg, jqXHR) { app.notify(msg, 'warning'); },
     notifySuccess: function (msg, jqXHR) { app.notify(msg, 'success'); },
     notifyError: function (msgOrjqXHR) {
