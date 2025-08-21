@@ -1997,3 +1997,434 @@
 2025-08-20 16:17:00.4576 | DEBUG | Trd:14 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
 2025-08-20 16:17:00.4576 | DEBUG | Trd:14 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
 2025-08-20 16:17:00.4576 | DEBUG | Trd:14 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-20 16:18:00.2349 | DEBUG | Trd:14 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-20 16:18:00.2430 | DEBUG | Trd:14 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-20 16:18:00.2430 | DEBUG | Trd:14 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-20 16:19:00.5706 | DEBUG | Trd:15 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-20 16:19:00.5706 | DEBUG | Trd:15 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-20 16:19:00.5706 | DEBUG | Trd:15 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-20 16:19:24.5308 | INFO | Trd:11 | Hangfire.Server.ServerWatchdog | 2 servers were removed due to timeout | 
+2025-08-20 16:19:24.6084 | DEBUG | Trd:13 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-20 16:19:24.6506 | TRACE | Trd:13 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-20 16:19:25.4544 | DEBUG | Trd:40 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-20 16:19:25.4614 | TRACE | Trd:40 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-20 16:20:00.9705 | DEBUG | Trd:16 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-20 16:20:00.9731 | DEBUG | Trd:16 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-20 16:20:00.9731 | DEBUG | Trd:16 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-20 16:21:00.4504 | DEBUG | Trd:14 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-20 16:21:00.4600 | DEBUG | Trd:14 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-20 16:21:00.4600 | DEBUG | Trd:14 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-20 16:22:01.0068 | DEBUG | Trd:16 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-20 16:22:01.0068 | DEBUG | Trd:16 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-20 16:22:01.0068 | DEBUG | Trd:16 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-20 16:23:00.6765 | DEBUG | Trd:14 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-20 16:23:00.6765 | DEBUG | Trd:14 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-20 16:23:00.6765 | DEBUG | Trd:14 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-20 16:24:00.2656 | DEBUG | Trd:14 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-20 16:24:00.2656 | DEBUG | Trd:14 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-20 16:24:00.2656 | DEBUG | Trd:14 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-20 16:24:24.6545 | DEBUG | Trd:13 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-20 16:24:24.7028 | TRACE | Trd:13 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-20 16:24:25.4634 | DEBUG | Trd:40 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-20 16:24:25.4634 | TRACE | Trd:40 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-20 16:25:01.0840 | DEBUG | Trd:14 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-20 16:25:01.0840 | DEBUG | Trd:14 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-20 16:25:01.0840 | DEBUG | Trd:14 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-20 16:26:00.5640 | DEBUG | Trd:14 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-20 16:26:00.5684 | DEBUG | Trd:14 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-20 16:26:00.5684 | DEBUG | Trd:14 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-20 16:27:01.0924 | DEBUG | Trd:16 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-20 16:27:01.1008 | DEBUG | Trd:16 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-20 16:27:01.1008 | DEBUG | Trd:16 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:20:22.7327 | INFO | Trd:1 | Hangfire.SqlServer.SqlServerStorage | Start installing Hangfire SQL objects... | 
+2025-08-21 09:20:22.8353 | INFO | Trd:1 | Hangfire.SqlServer.SqlServerStorage | Hangfire SQL objects installed. | 
+2025-08-21 09:20:22.8480 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Starting Hangfire Server | 
+2025-08-21 09:20:22.8480 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using job storage: 'SQL Server: localhost\SQLEXPRESS@HecDatabase' | 
+2025-08-21 09:20:22.8480 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using the following options for SQL Server job storage: | 
+2025-08-21 09:20:22.8480 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Queue poll interval: 00:00:15. | 
+2025-08-21 09:20:22.8480 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using the following options for Hangfire Server: | 
+2025-08-21 09:20:22.8480 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Worker count: 20 | 
+2025-08-21 09:20:22.8480 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Listening queues: 'default' | 
+2025-08-21 09:20:22.8480 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Shutdown timeout: 00:00:15 | 
+2025-08-21 09:20:22.8480 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Schedule polling interval: 00:00:15 | 
+2025-08-21 09:20:22.9195 | DEBUG | Trd:24 | Hangfire.Server.BackgroundProcessingServer | Background process 'BackgroundProcessingServer' started. | 
+2025-08-21 09:20:23.0065 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Starting Hangfire Server | 
+2025-08-21 09:20:23.0065 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using job storage: 'SQL Server: localhost\SQLEXPRESS@HecDatabase' | 
+2025-08-21 09:20:23.0065 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using the following options for SQL Server job storage: | 
+2025-08-21 09:20:23.0065 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Queue poll interval: 00:00:15. | 
+2025-08-21 09:20:23.0065 | INFO | Trd:1 | Hangfire.BackgroundJobServer | Using the following options for Hangfire Server: | 
+2025-08-21 09:20:23.0065 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Worker count: 20 | 
+2025-08-21 09:20:23.0065 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Listening queues: 'default' | 
+2025-08-21 09:20:23.0065 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Shutdown timeout: 00:00:15 | 
+2025-08-21 09:20:23.0065 | INFO | Trd:1 | Hangfire.BackgroundJobServer |     Schedule polling interval: 00:00:15 | 
+2025-08-21 09:20:23.0202 | DEBUG | Trd:25 | Hangfire.Server.BackgroundProcessingServer | Background process 'BackgroundProcessingServer' started. | 
+2025-08-21 09:20:23.1063 | DEBUG | Trd:27 | Hangfire.Server.ServerHeartbeat | Background process 'ServerHeartbeat' started. | 
+2025-08-21 09:20:23.1156 | DEBUG | Trd:28 | Hangfire.Server.ServerWatchdog | Background process 'ServerWatchdog' started. | 
+2025-08-21 09:20:23.1468 | DEBUG | Trd:29 | Hangfire.SqlServer.ExpirationManager | Background process 'Hangfire.SqlServer.ExpirationManager' started. | 
+2025-08-21 09:20:23.1468 | INFO | Trd:28 | Hangfire.Server.ServerWatchdog | 2 servers were removed due to timeout | 
+2025-08-21 09:20:23.1782 | DEBUG | Trd:26 | Hangfire.Server.ServerHeartbeat | Background process 'ServerHeartbeat' started. | 
+2025-08-21 09:20:23.1782 | DEBUG | Trd:29 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'AggregatedCounter' table... | 
+2025-08-21 09:20:23.1782 | DEBUG | Trd:31 | Hangfire.Server.ServerWatchdog | Background process 'ServerWatchdog' started. | 
+2025-08-21 09:20:23.1782 | DEBUG | Trd:30 | Hangfire.SqlServer.CountersAggregator | Background process 'Hangfire.SqlServer.CountersAggregator' started. | 
+2025-08-21 09:20:23.1912 | DEBUG | Trd:30 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-21 09:20:23.2199 | DEBUG | Trd:33 | Hangfire.Server.Worker | Background process 'Worker #eea33f83' started. | 
+2025-08-21 09:20:23.2199 | TRACE | Trd:30 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-21 09:20:23.2199 | TRACE | Trd:29 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'AggregatedCounter' table. | 
+2025-08-21 09:20:23.2220 | DEBUG | Trd:29 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Job' table... | 
+2025-08-21 09:20:23.2456 | DEBUG | Trd:36 | Hangfire.Server.Worker | Background process 'Worker #a7f2fdee' started. | 
+2025-08-21 09:20:23.2549 | DEBUG | Trd:35 | Hangfire.Server.Worker | Background process 'Worker #dd47f1ff' started. | 
+2025-08-21 09:20:23.2549 | DEBUG | Trd:34 | Hangfire.SqlServer.CountersAggregator | Background process 'Hangfire.SqlServer.CountersAggregator' started. | 
+2025-08-21 09:20:23.2549 | DEBUG | Trd:34 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-21 09:20:23.2549 | TRACE | Trd:29 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Job' table. | 
+2025-08-21 09:20:23.2549 | DEBUG | Trd:29 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'List' table... | 
+2025-08-21 09:20:23.2549 | TRACE | Trd:34 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-21 09:20:23.2755 | TRACE | Trd:29 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'List' table. | 
+2025-08-21 09:20:23.2755 | DEBUG | Trd:29 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Set' table... | 
+2025-08-21 09:20:23.2951 | TRACE | Trd:29 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Set' table. | 
+2025-08-21 09:20:23.2951 | DEBUG | Trd:29 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Hash' table... | 
+2025-08-21 09:20:23.2951 | DEBUG | Trd:37 | Hangfire.Server.Worker | Background process 'Worker #f4a86c07' started. | 
+2025-08-21 09:20:23.2951 | TRACE | Trd:29 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Hash' table. | 
+2025-08-21 09:20:23.3032 | DEBUG | Trd:38 | Hangfire.Server.Worker | Background process 'Worker #602f835a' started. | 
+2025-08-21 09:20:23.3032 | DEBUG | Trd:32 | Hangfire.SqlServer.ExpirationManager | Background process 'Hangfire.SqlServer.ExpirationManager' started. | 
+2025-08-21 09:20:23.3032 | DEBUG | Trd:32 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'AggregatedCounter' table... | 
+2025-08-21 09:20:23.3032 | TRACE | Trd:32 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'AggregatedCounter' table. | 
+2025-08-21 09:20:23.3032 | DEBUG | Trd:32 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Job' table... | 
+2025-08-21 09:20:23.3032 | TRACE | Trd:32 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Job' table. | 
+2025-08-21 09:20:23.3032 | DEBUG | Trd:32 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'List' table... | 
+2025-08-21 09:20:23.3032 | TRACE | Trd:32 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'List' table. | 
+2025-08-21 09:20:23.3032 | DEBUG | Trd:32 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Set' table... | 
+2025-08-21 09:20:23.3032 | DEBUG | Trd:39 | Hangfire.Server.Worker | Background process 'Worker #36defc4e' started. | 
+2025-08-21 09:20:23.3032 | TRACE | Trd:32 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Set' table. | 
+2025-08-21 09:20:23.3032 | DEBUG | Trd:32 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Hash' table... | 
+2025-08-21 09:20:23.3032 | DEBUG | Trd:41 | Hangfire.Server.Worker | Background process 'Worker #6eef0468' started. | 
+2025-08-21 09:20:23.3032 | TRACE | Trd:32 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Hash' table. | 
+2025-08-21 09:20:23.3192 | DEBUG | Trd:43 | Hangfire.Server.Worker | Background process 'Worker #71b77d21' started. | 
+2025-08-21 09:20:23.3192 | DEBUG | Trd:40 | Hangfire.Server.Worker | Background process 'Worker #a50b4ce1' started. | 
+2025-08-21 09:20:23.3192 | DEBUG | Trd:42 | Hangfire.Server.Worker | Background process 'Worker #81aee13d' started. | 
+2025-08-21 09:20:23.3397 | DEBUG | Trd:44 | Hangfire.Server.Worker | Background process 'Worker #4280ce1f' started. | 
+2025-08-21 09:20:23.3397 | DEBUG | Trd:46 | Hangfire.Server.Worker | Background process 'Worker #c7ecf049' started. | 
+2025-08-21 09:20:23.3512 | DEBUG | Trd:47 | Hangfire.Server.Worker | Background process 'Worker #bf398e9b' started. | 
+2025-08-21 09:20:23.3512 | DEBUG | Trd:45 | Hangfire.Server.Worker | Background process 'Worker #5fbf1bb4' started. | 
+2025-08-21 09:20:23.3512 | DEBUG | Trd:49 | Hangfire.Server.Worker | Background process 'Worker #787f5ff7' started. | 
+2025-08-21 09:20:23.3512 | DEBUG | Trd:50 | Hangfire.Server.Worker | Background process 'Worker #bd31df39' started. | 
+2025-08-21 09:20:23.3512 | DEBUG | Trd:48 | Hangfire.Server.Worker | Background process 'Worker #8d2119ef' started. | 
+2025-08-21 09:20:23.3753 | DEBUG | Trd:51 | Hangfire.Server.Worker | Background process 'Worker #fde7ed06' started. | 
+2025-08-21 09:20:23.3835 | DEBUG | Trd:54 | Hangfire.Server.Worker | Background process 'Worker #1517fe14' started. | 
+2025-08-21 09:20:23.3835 | DEBUG | Trd:52 | Hangfire.Server.Worker | Background process 'Worker #a26ad5fb' started. | 
+2025-08-21 09:20:23.3835 | DEBUG | Trd:55 | Hangfire.Server.Worker | Background process 'Worker #a8261c7f' started. | 
+2025-08-21 09:20:23.4005 | DEBUG | Trd:53 | Hangfire.Server.Worker | Background process 'Worker #e2b6f519' started. | 
+2025-08-21 09:20:23.4087 | DEBUG | Trd:57 | Hangfire.Server.Worker | Background process 'Worker #df3730f3' started. | 
+2025-08-21 09:20:23.4087 | DEBUG | Trd:59 | Hangfire.Server.Worker | Background process 'Worker #3486d986' started. | 
+2025-08-21 09:20:23.4087 | DEBUG | Trd:56 | Hangfire.Server.Worker | Background process 'Worker #a10ec8d6' started. | 
+2025-08-21 09:20:23.4087 | DEBUG | Trd:60 | Hangfire.Server.Worker | Background process 'Worker #daac30c8' started. | 
+2025-08-21 09:20:23.4400 | DEBUG | Trd:61 | Hangfire.Server.Worker | Background process 'Worker #b395f46a' started. | 
+2025-08-21 09:20:23.4400 | DEBUG | Trd:62 | Hangfire.Server.Worker | Background process 'Worker #46cc75ac' started. | 
+2025-08-21 09:20:23.4400 | DEBUG | Trd:58 | Hangfire.Server.Worker | Background process 'Worker #ca74cbcf' started. | 
+2025-08-21 09:20:23.4577 | DEBUG | Trd:63 | Hangfire.Server.Worker | Background process 'Worker #8a3f77b1' started. | 
+2025-08-21 09:20:23.4577 | DEBUG | Trd:65 | Hangfire.Server.Worker | Background process 'Worker #fe0664a4' started. | 
+2025-08-21 09:20:23.4716 | DEBUG | Trd:66 | Hangfire.Server.Worker | Background process 'Worker #c179f328' started. | 
+2025-08-21 09:20:23.4716 | DEBUG | Trd:67 | Hangfire.Server.Worker | Background process 'Worker #e1115944' started. | 
+2025-08-21 09:20:23.4716 | DEBUG | Trd:68 | Hangfire.Server.Worker | Background process 'Worker #7e7f70d0' started. | 
+2025-08-21 09:20:23.5147 | DEBUG | Trd:64 | Hangfire.Server.Worker | Background process 'Worker #fadbd44b' started. | 
+2025-08-21 09:20:23.5147 | DEBUG | Trd:70 | Hangfire.Server.Worker | Background process 'Worker #85e315aa' started. | 
+2025-08-21 09:20:23.5228 | DEBUG | Trd:71 | Hangfire.Server.Worker | Background process 'Worker #2ae31bae' started. | 
+2025-08-21 09:20:23.5228 | DEBUG | Trd:69 | Hangfire.Server.Worker | Background process 'Worker #2c69ad77' started. | 
+2025-08-21 09:20:23.5523 | DEBUG | Trd:73 | Hangfire.Server.Worker | Background process 'Worker #48a63d14' started. | 
+2025-08-21 09:20:23.5523 | DEBUG | Trd:74 | Hangfire.Server.Worker | Background process 'Worker #9526a288' started. | 
+2025-08-21 09:20:23.5816 | DEBUG | Trd:72 | Hangfire.Server.DelayedJobScheduler | Background process 'DelayedJobScheduler' started. | 
+2025-08-21 09:20:23.6003 | DEBUG | Trd:75 | Hangfire.Server.DelayedJobScheduler | Background process 'DelayedJobScheduler' started. | 
+2025-08-21 09:20:23.6141 | DEBUG | Trd:76 | Hangfire.Server.RecurringJobScheduler | Background process 'RecurringJobScheduler' started. | 
+2025-08-21 09:20:23.6338 | DEBUG | Trd:77 | Hangfire.Server.RecurringJobScheduler | Background process 'RecurringJobScheduler' started. | 
+2025-08-21 09:21:00.7404 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:21:00.8436 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:21:00.8642 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:22:00.1556 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:22:00.1596 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:22:00.1596 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:23:00.6252 | DEBUG | Trd:37 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:23:00.6312 | DEBUG | Trd:37 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:23:00.6312 | DEBUG | Trd:37 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:24:00.2857 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:24:00.2857 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:24:00.2857 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:25:00.8370 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:25:00.8370 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:25:00.8370 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:25:23.2271 | DEBUG | Trd:30 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-21 09:25:23.2744 | DEBUG | Trd:34 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-21 09:25:23.2744 | TRACE | Trd:34 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-21 09:25:23.2744 | TRACE | Trd:30 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-21 09:26:00.3915 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:26:00.3973 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:26:00.3973 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:27:00.9648 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:27:00.9648 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:27:00.9723 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:28:00.5968 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:28:00.5968 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:28:00.5968 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:29:00.0341 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:29:00.0341 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:29:00.0341 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:30:00.5967 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:30:00.5967 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:30:00.5967 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:30:23.2943 | DEBUG | Trd:30 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-21 09:30:23.2943 | DEBUG | Trd:34 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-21 09:30:23.3180 | TRACE | Trd:34 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-21 09:30:23.3180 | TRACE | Trd:30 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-21 09:31:00.1660 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:31:00.1660 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:31:00.1660 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:32:00.6318 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:32:00.6318 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:32:00.6318 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:33:00.1659 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:33:00.1659 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:33:00.1659 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:34:00.7211 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:34:00.7211 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:34:00.7211 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:35:00.1850 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:35:00.1951 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:35:00.1951 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:35:23.3289 | DEBUG | Trd:30 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-21 09:35:23.3289 | DEBUG | Trd:34 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-21 09:35:23.3446 | TRACE | Trd:34 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-21 09:35:23.3501 | TRACE | Trd:30 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-21 09:36:00.8936 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:36:00.8936 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:36:00.8936 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:37:00.4827 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:37:00.4985 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:37:00.4985 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:38:00.9689 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:38:00.9846 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:38:00.9866 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:39:00.5584 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:39:00.5584 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:39:00.5584 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:40:01.0373 | DEBUG | Trd:37 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:40:01.0373 | DEBUG | Trd:37 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:40:01.0373 | DEBUG | Trd:37 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:40:23.3532 | DEBUG | Trd:34 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-21 09:40:23.3532 | DEBUG | Trd:30 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-21 09:40:23.3916 | TRACE | Trd:30 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-21 09:40:23.4146 | TRACE | Trd:34 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-21 09:41:00.5352 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:41:00.5352 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:41:00.5352 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:42:00.0862 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:42:00.0862 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:42:00.0862 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:43:00.6702 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:43:00.6803 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:43:00.6803 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:44:00.1993 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:44:00.1993 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:44:00.1993 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:45:00.8511 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:45:00.8511 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:45:00.8511 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:45:23.4059 | DEBUG | Trd:30 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-21 09:45:23.4212 | DEBUG | Trd:34 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-21 09:45:23.4290 | TRACE | Trd:34 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-21 09:45:23.4499 | TRACE | Trd:30 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-21 09:46:00.2963 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:46:00.2963 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:46:00.2963 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:47:00.8429 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:47:00.8466 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:47:00.8466 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:48:00.2842 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:48:00.2842 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:48:00.2842 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:49:00.8085 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:49:00.8085 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:49:00.8085 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:50:00.3667 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:50:00.3667 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:50:00.3667 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:50:23.3116 | DEBUG | Trd:29 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'AggregatedCounter' table... | 
+2025-08-21 09:50:23.3279 | DEBUG | Trd:32 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'AggregatedCounter' table... | 
+2025-08-21 09:50:23.3524 | TRACE | Trd:29 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'AggregatedCounter' table. | 
+2025-08-21 09:50:23.3524 | TRACE | Trd:32 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'AggregatedCounter' table. | 
+2025-08-21 09:50:23.3524 | DEBUG | Trd:32 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Job' table... | 
+2025-08-21 09:50:23.3524 | DEBUG | Trd:29 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Job' table... | 
+2025-08-21 09:50:23.3682 | TRACE | Trd:32 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Job' table. | 
+2025-08-21 09:50:23.3682 | DEBUG | Trd:32 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'List' table... | 
+2025-08-21 09:50:23.3682 | TRACE | Trd:29 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Job' table. | 
+2025-08-21 09:50:23.3682 | DEBUG | Trd:29 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'List' table... | 
+2025-08-21 09:50:23.3682 | TRACE | Trd:32 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'List' table. | 
+2025-08-21 09:50:23.3682 | DEBUG | Trd:32 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Set' table... | 
+2025-08-21 09:50:23.3682 | TRACE | Trd:29 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'List' table. | 
+2025-08-21 09:50:23.3682 | DEBUG | Trd:29 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Set' table... | 
+2025-08-21 09:50:23.3682 | TRACE | Trd:32 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Set' table. | 
+2025-08-21 09:50:23.3682 | DEBUG | Trd:32 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Hash' table... | 
+2025-08-21 09:50:23.3682 | TRACE | Trd:29 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Set' table. | 
+2025-08-21 09:50:23.3682 | DEBUG | Trd:29 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Hash' table... | 
+2025-08-21 09:50:23.3682 | TRACE | Trd:32 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Hash' table. | 
+2025-08-21 09:50:23.3682 | TRACE | Trd:29 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Hash' table. | 
+2025-08-21 09:50:23.4435 | DEBUG | Trd:34 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-21 09:50:23.4435 | DEBUG | Trd:30 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-21 09:50:23.4841 | TRACE | Trd:34 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-21 09:50:23.4874 | TRACE | Trd:30 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-21 09:51:00.8512 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:51:00.8512 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:51:00.8512 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:52:00.3272 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:52:00.3351 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:52:00.3351 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:53:00.8754 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:53:00.8806 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:53:00.8806 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:54:00.3312 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:54:00.3312 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:54:00.3312 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:55:00.8268 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:55:00.8268 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:55:00.8268 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:55:23.4940 | DEBUG | Trd:34 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-21 09:55:23.4940 | DEBUG | Trd:30 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-21 09:55:23.5250 | TRACE | Trd:34 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-21 09:55:23.5420 | TRACE | Trd:30 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-21 09:56:00.3951 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:56:00.3951 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:56:00.3951 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:57:00.9600 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:57:00.9600 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:57:00.9600 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:58:00.4895 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:58:00.4895 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:58:00.4895 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 09:59:01.0449 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 09:59:01.0519 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 09:59:01.0519 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 10:00:00.5633 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 10:00:00.5683 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 10:00:00.5683 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 10:00:23.5387 | DEBUG | Trd:34 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-21 10:00:23.5521 | DEBUG | Trd:30 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-21 10:00:23.5834 | TRACE | Trd:34 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-21 10:00:23.6056 | TRACE | Trd:30 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-21 10:01:01.1012 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 10:01:01.1012 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 10:01:01.1012 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 10:02:00.5719 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 10:02:00.5719 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 10:02:00.5719 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 10:03:01.1192 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 10:03:01.1192 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 10:03:01.1192 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 10:04:00.6097 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 10:04:00.6179 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 10:04:00.6179 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 10:05:01.0765 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 10:05:01.0816 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 10:05:01.0816 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 10:05:23.5854 | DEBUG | Trd:34 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-21 10:05:23.6169 | DEBUG | Trd:30 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-21 10:05:23.6169 | TRACE | Trd:30 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-21 10:05:23.6345 | TRACE | Trd:34 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-21 10:06:00.6413 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 10:06:00.6465 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 10:06:00.6465 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 10:07:00.1597 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 10:07:00.1597 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 10:07:00.1597 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 10:08:00.6553 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 10:08:00.6655 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 10:08:00.6655 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 10:09:00.1749 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 10:09:00.1749 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 10:09:00.1749 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 10:10:00.6492 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 10:10:00.6492 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 10:10:00.6492 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 10:10:23.6341 | DEBUG | Trd:30 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-21 10:10:23.6505 | DEBUG | Trd:34 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-21 10:10:23.6600 | TRACE | Trd:30 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-21 10:10:23.6600 | TRACE | Trd:34 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-21 10:11:00.1861 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 10:11:00.1947 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 10:11:00.1947 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 10:12:00.7226 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 10:12:00.7226 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 10:12:00.7226 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 10:13:00.1918 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 10:13:00.1918 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 10:13:00.1918 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 10:14:00.7344 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 10:14:00.7393 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 10:14:00.7393 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 10:15:00.2376 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 10:15:00.2376 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 10:15:00.2376 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 10:15:23.6659 | DEBUG | Trd:30 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-21 10:15:23.6748 | DEBUG | Trd:34 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-21 10:15:23.6903 | TRACE | Trd:34 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-21 10:15:23.6903 | TRACE | Trd:30 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-21 10:16:00.7557 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 10:16:00.7557 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 10:16:00.7557 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 10:17:00.3089 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 10:17:00.3181 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 10:17:00.3181 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 10:18:00.6970 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 10:18:00.7067 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 10:18:00.7067 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 10:19:00.2557 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 10:19:00.2557 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 10:19:00.2557 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 10:20:00.7807 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 10:20:00.7897 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 10:20:00.7897 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 10:20:23.3822 | DEBUG | Trd:32 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'AggregatedCounter' table... | 
+2025-08-21 10:20:23.3822 | TRACE | Trd:32 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'AggregatedCounter' table. | 
+2025-08-21 10:20:23.3822 | DEBUG | Trd:32 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Job' table... | 
+2025-08-21 10:20:23.3980 | DEBUG | Trd:29 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'AggregatedCounter' table... | 
+2025-08-21 10:20:23.4220 | TRACE | Trd:32 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Job' table. | 
+2025-08-21 10:20:23.4307 | DEBUG | Trd:32 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'List' table... | 
+2025-08-21 10:20:23.4307 | TRACE | Trd:29 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'AggregatedCounter' table. | 
+2025-08-21 10:20:23.4307 | DEBUG | Trd:29 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Job' table... | 
+2025-08-21 10:20:23.4307 | TRACE | Trd:32 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'List' table. | 
+2025-08-21 10:20:23.4307 | DEBUG | Trd:32 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Set' table... | 
+2025-08-21 10:20:23.4307 | TRACE | Trd:29 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Job' table. | 
+2025-08-21 10:20:23.4399 | DEBUG | Trd:29 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'List' table... | 
+2025-08-21 10:20:23.4399 | TRACE | Trd:32 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Set' table. | 
+2025-08-21 10:20:23.4399 | DEBUG | Trd:32 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Hash' table... | 
+2025-08-21 10:20:23.4399 | TRACE | Trd:29 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'List' table. | 
+2025-08-21 10:20:23.4399 | DEBUG | Trd:29 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Set' table... | 
+2025-08-21 10:20:23.4399 | TRACE | Trd:32 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Hash' table. | 
+2025-08-21 10:20:23.4399 | TRACE | Trd:29 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Set' table. | 
+2025-08-21 10:20:23.4399 | DEBUG | Trd:29 | Hangfire.SqlServer.ExpirationManager | Removing outdated records from the 'Hash' table... | 
+2025-08-21 10:20:23.4399 | TRACE | Trd:29 | Hangfire.SqlServer.ExpirationManager | Outdated records removed from the 'Hash' table. | 
+2025-08-21 10:20:23.7108 | DEBUG | Trd:30 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-21 10:20:23.7108 | DEBUG | Trd:34 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-21 10:20:23.7304 | TRACE | Trd:30 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-21 10:20:23.7304 | TRACE | Trd:34 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-21 10:21:00.4062 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 10:21:00.4106 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 10:21:00.4106 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 10:22:00.9511 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 10:22:00.9559 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 10:22:00.9559 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 10:23:00.5657 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 10:23:00.5657 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 10:23:00.5657 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 10:25:00.7210 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 10:25:00.7210 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 10:25:00.7210 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 10:25:23.7375 | DEBUG | Trd:34 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-21 10:25:23.7375 | DEBUG | Trd:30 | Hangfire.SqlServer.CountersAggregator | Aggregating records in 'Counter' table... | 
+2025-08-21 10:25:23.7591 | TRACE | Trd:30 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-21 10:25:23.7872 | TRACE | Trd:34 | Hangfire.SqlServer.CountersAggregator | Records from the 'Counter' table aggregated. | 
+2025-08-21 10:26:00.3071 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 10:26:00.3071 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 10:26:00.3071 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 10:27:00.8323 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 10:27:00.8323 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 10:27:00.8323 | DEBUG | Trd:36 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
+2025-08-21 10:28:00.2677 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | Sending emails in email queue... | 
+2025-08-21 10:28:00.2677 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | No queued emails to be sent. | 
+2025-08-21 10:28:00.2677 | DEBUG | Trd:33 | Hec.Jobs.EmailDispatchJob | DONE. Unable to send queued emails. (0 emails). Exceptions:  | 
